@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails ScutIsu: test" uuid="5effabdf-95ee-4463-999b-d0365703adc8">
+      <database-info product="PostgreSQL" version="9.5.4" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <introspection-schemas>ScutIsu_test:public</introspection-schemas>
+    </data-source>
+    <data-source name="Rails ScutIsu: production" uuid="e9436669-8836-4ba2-987e-fa03fe472eb5">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <first-sync>true</first-sync>
+      <user-name>Scutisu</user-name>
+    </data-source>
+    <data-source name="Rails ScutIsu: development" uuid="712ff163-9258-4df6-a979-929e67ac0f1d">
+      <database-info product="PostgreSQL" version="9.5.4" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <introspection-schemas>ScutIsu_development:public</introspection-schemas>
+    </data-source>
+  </component>
+</project>

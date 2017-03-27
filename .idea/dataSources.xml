@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Rails ScutIsu: test" uuid="5effabdf-95ee-4463-999b-d0365703adc8">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:ScutIsu_test</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails ScutIsu: production" uuid="e9436669-8836-4ba2-987e-fa03fe472eb5">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:ScutIsu_production</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails ScutIsu: development" uuid="712ff163-9258-4df6-a979-929e67ac0f1d">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:ScutIsu_development</jdbc-url>
+    </data-source>
+  </component>
+</project>
