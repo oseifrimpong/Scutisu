@@ -21,6 +21,11 @@ gem 'coffee-rails', '~> 4.2'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 gem 'devise'
+gem 'cancancan'
+
+#for admin dashboard
+gem 'remotipart', github: 'mshibuya/remotipart'
+gem 'rails_admin'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
