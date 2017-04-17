@@ -19,18 +19,41 @@ gem 'coffee-rails', '~> 4.2'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 gem 'devise'
+gem 'cancancan'
+
+#for admin dashboard
+gem 'remotipart', github: 'mshibuya/remotipart'
+gem 'rails_admin'
+gem 'rails_admin_rollincode', '~> 1.0'
 
 # Use jquery as the JavaScript library
 
 gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
+
 gem 'devise'
+
+# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
+gem 'jbuilder', '~> 2.5'
+gem 'bootstrap', '~> 4.0.0.alpha6'
+gem 'autoprefixer-rails'
+# Use Redis adapter to run Action Cable in production
+# gem 'redis', '~> 3.0'
+# Use ActiveModel has_secure_password
+# gem 'bcrypt', '~> 3.1.7'
+# for flash messages
+gem 'toastr-rails'
+# Use Capistrano for deployment
+# gem 'capistrano-rails', group: :development
+
+
 group :development, :test do
 
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'rspec-rails', '~> 3.5'
 
   gem 'byebug', platform: :mri
+  gem 'factory_girl_rails'
 end
 group :development do
   gem 'listen', '~> 3.0.5'
@@ -38,4 +61,11 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-tether', '>= 1.3.3'
+end
+
+# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
