@@ -6,7 +6,6 @@ git_source(:github) do |repo_name|
 end
 
 gem 'rails', '~> 5.0.2'
-gem 'sqlite3'
 gem 'puma', '~> 3.0'
 gem 'sass-rails', '~> 5.0'
 gem 'bootstrap', '~> 4.0.0.alpha3'
@@ -19,6 +18,7 @@ gem 'remotipart', github: 'mshibuya/remotipart'
 gem 'rails_admin', '~> 1.1.1'
 gem 'rails_admin_rollincode', '~> 1.0'
 gem 'devise'
+gem 'pg'
 
 gem 'toastr_rails'
 group :development, :test do
