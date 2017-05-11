@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   root to: "home#index"
 
   #for events
-  resources :events do 
+  resources :events, only: [:index, :show] do 
   	resources :participations
   end
 
