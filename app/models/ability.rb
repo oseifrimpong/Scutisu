@@ -2,17 +2,6 @@ class Ability
   include CanCan::Ability
 
   def initialize(user)
-<<<<<<< HEAD
-=======
-
-    user ||= User.new
-    if user.admin_role?
-      can :manage,:all
-    end
-    if user.executive_role?
-      can :manage, User
-    end
->>>>>>> db82be3a35b388dd33cfc3bd5d6c338bb52be5e6
     # Define abilities for the passed in user here. For example:
     #
     #   user ||= User.new # guest user (not logged in)

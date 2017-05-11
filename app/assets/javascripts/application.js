@@ -11,17 +11,6 @@
 // about supported directives.
 //
 //= require jquery
-<<<<<<< HEAD
-=======
-//= require tether
-//= require bootstrap-sprockets
->>>>>>> db82be3a35b388dd33cfc3bd5d6c338bb52be5e6
-//= require bootstrap
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
-<<<<<<< HEAD
-//= require toastr_rails
-=======
-
->>>>>>> db82be3a35b388dd33cfc3bd5d6c338bb52be5e6
