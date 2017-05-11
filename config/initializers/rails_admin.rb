@@ -11,6 +11,12 @@ RailsAdmin.config do |config|
   ## == Cancan ==
   # config.authorize_with :cancan
 
+  config.authorize_with do
+    authenticate_or_request_with_http_basic('Login required') do |username, password|
+      username == Rails.application.secrets.user &&
+      password == Rails.application.secrets.password
+    end
+  end
   ## == Pundit ==
   # config.authorize_with :pundit
 

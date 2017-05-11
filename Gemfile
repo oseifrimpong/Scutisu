@@ -18,6 +18,7 @@ gem 'remotipart', github: 'mshibuya/remotipart'
 gem 'rails_admin', '~> 1.1.1'
 gem 'rails_admin_rollincode', '~> 1.0'
 gem 'devise'
+gem 'cancancan', '~> 1.10'
 gem 'pg'
 
 gem 'toastr_rails'
