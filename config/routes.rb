@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
 
 
+  get 'contact/index'
+
+  get 'about/index'
+
   resources :books, only: [:index, :show]
   resources :book_requests
   resources :authors
