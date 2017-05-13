@@ -1,0 +1,955 @@
+.iso_items {
+    margin: 0 !important;
+}
+
+.conta.gallery_section, .isotope_block {
+    width: calc(100% - 40px);
+}
+
+.gallery_section, .isotope_block {
+    margin: auto;
+}
+
+.anim .gallery_posts .hentry .gallery_thumb img {
+    width: 100%;
+}
+
+@media (max-width: 1200px) {
+    .section1, .slideshow.flexslider, .latest_sermon .sermon_wrap h2, .features_block, div.sc_line, .gallery_section, 
+	h2.sc_headline, h4.sc_headline, .sc_thumbs.thumb_wrap, .footer_copyright {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .slideshow.flexslider.gallery {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    h2.video_title {
+        width: 100%;
+    }
+	
+	.sc_team{
+		text-align: center;
+	}
+	
+	.sc_team .sc_team_item{
+		float: none;
+		display: inline-block;
+		text-align: left;
+	}
+}
+
+@media (min-width: 1025px) {
+    #main > .shortcodes {
+        width: 1140px;
+    }
+
+    #main > .shortcodes .container {
+        width: 750px;
+    }
+}
+
+@media (max-width: 1024px) {
+	
+    #tribe-events-content .tribe-events-calendar tr td {
+        height: auto;
+    }
+
+    .features_block .mCSB_container {
+        width: 1140px !important;
+    }
+
+    #main > .container,
+    .section_wrap {
+        width: 900px;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .latest_sermon {
+        padding: 0 20px;
+    }
+
+    .section_wrap, 
+    .features_block,
+    .gallery_section {
+        padding: 0 20px;
+    }
+
+    .features_block {
+        padding-top: 52px;
+    }
+
+    .slideshow li .slider_icon > span {
+        margin-left: 10%;
+    }
+
+    .anim .iso_items .hentry, 
+    .isotope_block .isotope_single_item {
+        width: 275px;
+        margin: 15px;
+    }
+
+    .anim.col2 .iso_items .hentry {
+        width: 422px;
+    }
+
+    .anim .iso_items .hentry img {
+        width: 100%;
+        height: auto;
+    }
+
+    .anim.col4 .iso_items .hentry {
+        width: 210px;
+        margin: 15px;
+    }
+
+    nav #mainmenu > li > a {
+        padding: 22px 10px 12px;
+    }
+
+    #primary {
+        width: 590px;
+    }
+
+    #secondary {
+        width: 230px;
+        margin-left: 40px;
+    }
+
+    .shortcodes #secondary {
+        padding: 0 20px;
+        width: 100%;
+        margin-left: 0;
+        overflow: hidden;
+    }
+
+    article.format-gallery .post_thumb {
+        min-height: 280px;
+    }
+
+    .post_content .post_col {
+        margin-left: 40px;
+        width: 250px;
+    }
+
+    .sc_team .sc_team_item {
+        width: 280px;
+    }
+
+    .sc_team .sc_team_item .avatar {
+        width: 280px;
+        margin-left: -20px;
+    }
+
+    nav #mainmenu > li {
+        margin-left: 0;
+    }
+
+    .section2 #searchform {
+        float: none;
+        display: inline-block;
+    }
+
+    .section2 .parallax h3,
+    .section2 .parallax h2,
+    .section2 .parallax h1 {
+        float: none;
+        text-align: center;
+    }
+
+    .section2 .container {
+        text-align: center;
+    }
+
+    .isotope_block .isotope_single_item .event_thumb img {
+        max-width: 100%;
+    }
+
+    .textslider.slideshow li .slide_content {
+        font-size: 34px;
+        line-height: 40px;
+    }
+
+    .slideshow .slides li .slide_inner {
+        padding-top: 0;
+    }
+
+    nav #mainmenu li ul {
+        top: 51px;
+    }
+
+    #header .section1, .features_block, #tribe-events-content-wrapper .events_parallax, #tribe-events-footer .tribe-events-sub-nav,
+	.con_block p, .con_block .sc_columns {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .sc_team .sc_team_item .sc_team_item_avatar > img, .gallery  img, .video_frame_wrap img, .anim .gallery_posts .hentry .gallery_thumb img {
+        width: 100%;
+    }
+
+    #tribe-bar-form .tribe-bar-submit {
+        padding-left: 0px;
+    }
+
+    .tp-caption.Slide_title.start {
+        max-height: 100px;
+        overflow: hidden;
+    }
+
+    .isotope_block .isotope_single_item .event_caption h3 {
+        font-size: 140%;
+        line-height: 110%;
+    }
+
+    #main > .shortcodes, .shortcodes #primary, .shortcodes .container {
+        width: 730px;
+    }
+
+    .countdown_block .block_wrap .countdown {
+        text-align: center;
+    }
+
+    .countdown_block .countdown div {
+        float: none;
+        margin: auto;
+        display: inline-block;
+    }
+
+    .countdown_block .countdown  > div + div {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    #primary {
+        width: 100%;
+    }
+
+    .col2.isotope_block .isotope_single_item .event_caption h3 {
+        font-size: 140%;
+        line-height: 110%;
+    }
+
+    .post_content .post_col {
+        margin: 0 0 20px 0;
+        float: none;
+        width: 100%;
+    }
+
+    #secondary {
+        padding: 0 20px;
+        width: 100%;
+        margin-left: 0;
+        overflow: hidden;
+    }
+
+    .anim .iso_items .hentry {
+        width: 300px;
+        margin-right: 10px;
+    }
+
+    .anim.col2 .iso_items .hentry {
+        width: 280px;
+    }
+
+    .gallery_section {
+        padding: 0;
+    }
+
+    #main > .container,
+    .section_wrap {
+        width: 100%;
+        padding: 0 20px;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    #sitename {
+        float: none;
+        text-align: center;
+    }
+
+    #mainmenu_area {
+        position: relative;
+        float: none;
+        clear: both;
+        padding-top: 30px;
+    }
+
+    #mainmenu_area #mainmenu {
+        text-align: center;
+    }
+
+    #header .section1 {
+        border: none;
+    }
+
+    #menu_show {
+        display: block;
+    }
+
+    .textslider.slideshow li .slide_title {
+        padding-bottom: 0;
+        font-size: 36px;
+        line-height: 36px;
+        margin-bottom: 15px;
+        max-width: 100%;
+    }
+
+    .slideshow.textslider li .slide_title:after {
+        position: relative;
+        width: 100%;
+        line-height: 0;
+        font-size: 0;
+        margin: 15px auto 0;
+        left: 0;
+    }
+
+    #profile_header {
+        padding: 0 30px;
+    }
+
+    nav #mainmenu li.follow {
+        display: none !important;
+    }
+
+    nav #mainmenu > li {
+        margin: 0 15px 0 0;
+        float: none;
+        display: inline-block;
+    }
+
+    .slideshow .slides li .slide_inner {
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .slideshow li {
+        text-align: center;
+    }
+
+    .slideshow li .slider_icon {
+        margin-right: 0;
+        position: relative;
+        float: none;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 21px;
+        font-size: 90px;
+        line-height: 90px;
+        padding-top: 10px;
+    }
+
+    .slideshow li .slider_icon > span {
+        top: 0;
+        animation: none !important;
+        position: relative;
+        display: inline-block;
+        margin-left: 0;
+    }
+
+    .slideshow li .slide_content {
+        padding-left: 0;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .anim .iso_items .hentry {
+        width: 317px;
+        margin: 15px;
+    }
+
+    .anim.col4 .iso_items .hentry {
+        width: 226px;
+    }
+
+    .sc_tabs.style2 ul.tab_names li {
+        margin-bottom: 10px;
+    }
+
+    .sc_tabs.style2 ul.tab_names li a {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .social .soc_list li {
+        margin: 0 10px 10px;
+    }
+
+    .sc_team .sc_team_item, .sc_team {
+        width: 300px;
+    }
+
+    .sc_team {
+        margin: auto;
+    }
+
+    .sc_team .sc_team_item .avatar {
+        width: 210px;
+        margin-left: -10px;
+    }
+
+    .sc_team .sc_team_item .profile_thumb .sc_team_item_description {
+        display: none;
+    }
+
+    .slideshow .slides li .slide_inner {
+        padding: 0;
+    }
+
+    .sc_team .sc_team_item .sc_team_item_social a {
+        margin: 3px 8px;
+    }
+
+    .slideshow.textslider li .slider_thumb {
+        float: none;
+        margin: 0 0 20px 0;
+        text-align: center;
+        width: auto;
+    }
+
+    .section2 {
+        padding-top: 30px;
+    }
+
+    .latest_sermon .sermon_wrap ul {
+        float: none;
+        clear: both;
+    }
+
+    #tribe-bar-form.tribe-bar-mini label {
+        font-size: 24px;
+    }
+
+    #secondary aside.widget {
+        padding-right: 20px;
+    }
+
+    .widget_follow .socail_links {
+        padding-bottom: 20px;
+    }
+
+    .tp-caption img {
+        padding-left: 20px;
+    }
+
+    #tribe-bar-form #tribe-bar-views {
+        float: left;
+        padding-left: 0px;
+    }
+
+    #tribe-bar-form .tribe-bar-views-inner label, #tribe-bar-form .tribe-bar-search-filter {
+        padding-left: 0px;
+    }
+
+    .isotope_block .isotope_single_item .event_caption h3 {
+        font-size: 140%;
+        line-height: 110%;
+    }
+
+    .shortcodes, .shortcodes #primary, .shortcodes .container {
+        width: 100%;
+    }
+
+    .shortcodes #primary {
+        width: 100%;
+    }
+}
+
+@media (max-width: 640px) {
+    .gallery_section .switcher {
+        display: none;
+    }
+
+    .gallery_section, .isotope_block {
+        margin: auto;
+    }
+}
+
+@media (max-width: 600px) {
+	
+    .isotope_block .isotope_single_item .event_caption h3 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .switcher {
+        display: none;
+    }
+
+    .gallery_section, .isotope_block {
+        margin: auto;
+    }
+
+    .isotope_block.events {
+        margin-bottom: 60px;
+    }
+
+    figure.sc_image.sc_image_align_left, figure.sc_image.sc_image_align_right {
+        float: none;
+        width: 100%;
+        padding-bottom: 15px;
+        margin: 0;
+        height: auto;
+    }
+	
+	#related_posts .related_posts{
+		width: 100%;
+	}
+}
+
+@media (max-width: 568px) {
+	.countdown_block .block_wrap .countdown{
+		width: 320px;
+	}
+	
+	.countdown_block .block_wrap .countdown .minutes {
+		margin-left: 0;
+	}
+	
+	.countdown_block .block_wrap .countdown .hours .divider{
+		display: none;
+	}
+}
+
+@media (max-width: 480px) {
+	
+	#post_author .photo{
+		float: none;
+	}
+	
+    .isotope_block .isotope_single_item .event_caption h3 {
+        font-size: 140%;
+        line-height: 110%;
+    }
+
+    .countdown_block .countdown > div + div {
+        margin-left: 10px;
+    }
+
+    .countdown_block .countdown .num_wrap {
+        width: 37px;
+        float: left;
+    }
+
+    .countdown_block .countdown > div > span.divider {
+        margin-left: 10px;
+    }
+
+    .countdown_block .countdown .label {
+        font-size: 9px;
+    }
+
+    .countdown_block .countdown .number {
+        font-size: 20px;
+        line-height: 24px;
+    }
+	
+	.iso_filters li{
+		display: block;
+	}
+	
+	.countdown_block .block_wrap .countdown{
+		width: 200px;
+	}
+	
+    #secondary {
+        padding: 0 5px;
+    }
+
+    .nav_pages {
+        padding-bottom: 0;
+    }
+
+    article.format-gallery .post_thumb {
+        min-height: 0;
+    }
+
+    article.post .additional, #primary > .additional {
+        display: none;
+    }
+
+    .mejs-controls div.mejs-horizontal-volume-slider {
+        display: none !important;
+    }
+
+    #main > .container,
+    .section_wrap {
+        padding: 0;
+        width: 300px;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .iso_filters li {
+        margin-bottom: 10px;
+    }
+
+    .gap_fullwidth h2.section_title {
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .gap_fullwidth .testi_slider {
+        padding-top: 35px;
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .testi_slider h2.section_title {
+        padding-top: ;
+    }
+
+    #opt_block {
+        display: none;
+    }
+
+    .anim .iso_items {
+        margin: 0;
+    }
+
+    .anim .iso_items .hentry {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .anim.col2 .iso_items .hentry,
+    .anim.col4 .iso_items .hentry {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .testi_slider .slides li .slide_thumb:before, 
+    .testi_slider .slides li .slide_thumb:after {
+        width: 101px;
+    }
+
+    .slideshow .flex-control-nav {
+        bottom: 40px;
+    }
+
+    .sc_contact_form .field.name, 
+    .sc_contact_form .field.email {
+        float: none;
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+
+    .sc_contact_form .field.message {
+        padding-top: 0;
+    }
+
+    .comment-list .comment .comment_ind {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .comment-list .children {
+        padding-left: 20px;
+    }
+
+    .left #secondary {
+        margin-right: 40px;
+    }
+
+    .sc_columns .sc_column_item {
+        float: none !important;
+        margin: 0 0 20px !important;
+        width: 100% !important;
+    }
+
+    .sc_team .sc_team_item, .sc_team {
+        width: 300px;
+    }
+
+    .sc_team {
+        margin: auto;
+    }
+
+    .sc_team .sc_team_item .avatar {
+        width: 300px;
+        margin-left: 0;
+    }
+
+    .sc_heading .sc_heading_text {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .section2 h1 {
+        font-size: 36px;
+    }
+
+    .features_block .features_post {
+        width: 320px;
+    }
+
+    .sc_thumbs.thumb_wrap .thumb_item {
+        float: none;
+        display: inline-block;
+        margin: auto;
+    }
+
+    h2.sc_headline, h4.sc_headline {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .sc_thumbs.thumb_wrap {
+		/*margin: 0;*/;
+    }
+
+    #tribe-bar-form.tribe-bar-collapse .tribe-bar-views-inner label {
+        display: none;
+    }
+
+    .tp-caption.Slide_title.start {
+        max-height: 100px;
+        overflow: hidden;
+    }
+
+    .events_calendar_wrap {
+        padding: 47px 20px 43px;
+    }
+
+    .tribe-events-calendar td {
+        max-width: 60px;
+    }
+
+    .tribe-events-calendar thead th {
+        font-size: 12px;
+    }
+
+    .events-archive.events-gridview #tribe-events-content table .vevent {
+        margin: 0px;
+    }
+
+    .sc_table table td {
+        padding: 16px 5px 17px;
+        font-size: 10px;
+    }
+
+    .sc_contact_form_style_light.sc_contact_form {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .sc_contact_form_title, .sc_contact_form .field.subject,.sc_contact_form .field.name,.sc_contact_form .field.email,.sc_contact_form .field.message, .sc_contact_form .button {
+        width: calc(100% - 40px);
+    }
+
+    #related_posts .related_posts {
+        width: auto;
+    }
+
+    div.sc_columns_count_4 > div.sc_column_item {
+        width: 100%;
+    }
+
+    .single-tribe_events #main {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .tp-caption {
+        left: 20px !important;
+    }
+
+    .tribe-events-calendar td div[id*="tribe-events-daynum-"] {
+        padding: 0px 2px 0px;
+    }
+
+    h2.sc_headline, h2.tribe-events-single-event-title.summary, h1.gallery_title {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .sc_table table thead tr th {
+        padding: 12px 5px 15px;
+        font-size: 12px;
+    }
+
+    .tp-caption img {
+        display: none;
+    }
+
+    .section2 .parallax h1, .section2 .parallax h2, .section2 .parallax h3 {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 420px) {
+	
+    .features_block .features_post .post_content a.features_link {
+        top: 80%;
+    }
+
+    .features_block .features_post .post_thumb .features_title span {
+        font-size: 18px;
+        line-height: 15px;
+    }
+
+    .features_block .features_post .post_content h3 {
+        margin-bottom: 15px;
+        font-size: 18px;
+        line-height: 15px;
+    }
+}
+
+@media (max-width: 320px) {
+	.isotope_block.events .isotope_single_item .event_caption .divider{
+		float: none;
+	}
+	
+    .anim .gallery_posts .hentry .overlay > h3 {
+        font-size: 18px;
+    }
+
+    .countdown_block .block_wrap .countdown {
+        width: 200px;
+    }
+
+    .features_block .features_post .post_content {
+        font-size: 0;
+    }
+
+    .isotope_block .isotope_single_item .event_caption h3 {
+        font-size: 140%;
+        line-height: 110%;
+    }
+
+    .features_block .features_post .post_content a.features_link {
+        top: 70%;
+    }
+
+    #header .section1, .features_block, #tribe-events-content-wrapper .events_parallax, #tribe-events-footer .tribe-events-sub-nav, .con_block p, .con_block .sc_columns,
+	.gallery_section, .isotope_block, #header .section2 .gap_fullwidth .container , h2.sc_headline, h4.sc_headline, .sc_banner .sc_banner_content {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .sc_team {
+        overflow: hidden;
+        margin: 0px;
+        padding-top: 0px;
+        padding: 0 20px;
+        width: calc(100% - 40px);
+        margin-right: 0;
+    }
+
+    .sc_team .sc_team_item, .sc_image.sc_image_align_left, figure.sc_image.sc_image_align_right {
+        margin: 0;
+        width: 100%;
+    }
+
+    .switcher, #tribe-bar-views {
+        display: none;
+    }
+
+    #primary , #secondary {
+        width: calc(100% - 20px);
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .single article.type-gallery {
+        width: calc(100% - 20px);
+        margin: 0;
+    }
+
+    .sc_wrapper h1 {
+        font-size: 50px;
+    }
+
+    .events_calendar_wrap {
+        padding: 47px 10px 43px;
+    }
+
+    #tribe-events-content .tribe-events-calendar tr td {
+        max-width: 30px;
+    }
+
+    .single-tribe_events #main {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .tribe-bar-collapse #tribe-bar-collapse-toggle {
+        width: 100%;
+    }
+
+    .tribe-events-schedule {
+        display: none;
+    }
+
+    .features_block .features_post .post_thumb {
+        min-height: inherit;
+    }
+
+    .features_block .features_post .post_thumb .features_title {
+        bottom: 23px;
+    }
+}
+
+@media (max-width: 240px) {
+
+    #main > .container, .section_wrap {
+        width: calc(100% - 20px);
+    }
+
+    .sc_thumbs.thumb_wrap .thumb_item {
+        display: block;
+    }
+
+    .countdown_block .block_wrap .countdown {
+        width: calc(100% - 20px);
+        padding-left: 25px;
+    }
+
+    .gallery_section, .isotope_block {
+        padding: 0;
+    }
+
+    .isotope_block .isotope_single_item .event_caption h3 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .section2 #searchform {
+        float: none;
+        display: inline-block;
+        width: calc(100% - 20px);
+    }
+
+    h2.sc_headline, h4.sc_headline, .sc_team {
+        padding: 0 10px;
+    }
+
+    .section2 .parallax h1, .section2 .parallax h2, .section2 .parallax h3 {
+        font-size: 50px;
+    }
+
+    #main > .container, .section_wrap {
+        width: 100%;
+    }
+
+    .anim .iso_items {
+        margin: 0;
+        width: calc(100% - 20px);
+        margin-left: 10px;
+    }
+
+    .tribe-events-calendar thead th {
+        font-size: 6px;
+    }
+
+    #tribe-events-content .tribe-events-calendar tr td {
+        max-width: 20px;
+    }
+}

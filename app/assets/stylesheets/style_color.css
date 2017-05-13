@@ -1,0 +1,379 @@
+input[type="text"]:focus,
+			#searchform input[type="text"]:focus,
+			input[type="password"]:focus,
+			textarea:focus {
+				border-color: #01b6c7;
+				background-color: #01b6c7;
+			}	
+			input[type="submit"]:hover {
+				border: 2px solid #01b6c7;
+			}
+			
+			input[type="submit"]:hover:active , ::selection, ::-moz-selection, article.post .additional .post_format,
+			#primary > .additional .post_format , article .post_thumb, nav #mainmenu > li:after {
+				background: #01b6c7;
+			}
+			
+			a, .widget_recent_comments ul li .extra .comment_author , article.post h2 a:hover,
+			article.post.format-quote .quote_wrap {
+				color: #01b6c7;
+			}
+		
+			article .post_thumb .flex-direction-nav li a:hover {
+				background: #01b6c7;
+				border-color: #01b6c7;
+			}
+			
+			.post_thumb .icon:hover {
+				background: #01b6c7;
+				border-color: #01b6c7;
+			}
+			.widget_area aside.widget ul li:after {
+				color: #01b6c7;
+			}
+			.readmore a:hover {
+				border-color: #01b6c7;
+			}
+			.readmore a:hover:active {				
+				background: #01b6c7;
+			}
+			.nav_pages ul li a:hover {
+				border-color: #01b6c7; 
+			}
+			.nav_pages ul li a:hover:active {
+				background: #01b6c7;
+				border-color: #01b6c7;
+			}
+			.nav_pages ul li.pager_last a:hover:after {
+				background: #01b6c7;
+			}
+			.nav_pages ul li.pager_first a:hover:before {
+				background: #01b6c7;
+			}
+			.nav_pages ul li.pager_current span {
+				border-color: #01b6c7;
+				background: #01b6c7;
+			}			
+			.widget_recent_comments ul li .extra .post_title a:hover {
+				color: #01b6c7;
+			}
+			.widget #popular_tabs .tab_content li .post_title:hover {
+				color: #01b6c7;
+			}
+			.widget #popular_tabs .tab_title li a.current {
+				background: #01b6c7;
+				border-color: #01b6c7;
+			}
+			.comment-list .comment h5 {
+				color: #01b6c7;
+			}
+			.nav_pages ul li a:hover:active, 
+			.page-links > span {
+				border-color: #01b6c7;
+				background: #01b6c7;
+			}
+			.nav_pages ul li a:hover,
+			.page-links a:hover {
+				border-color: #01b6c7;
+			}
+			.textslider.slideshow li .slide_content {
+				color: #01b6c7;
+			}
+			.widget #popular_tabs .tab_title li a.current:hover {color:#fff}
+			.tagcloud a:hover {
+				background: #01b6c7;
+				border-color: #01b6c7;
+			}
+			.widget_area .widget_follow .socail_links li a:hover {
+				color: #01b6c7;
+			}
+			
+			#cms-calendar tbody td.hover {
+				background: #01b6c7;
+			}
+			#gallery_nav .gallery_link:hover i {
+				background: #01b6c7;
+			}
+			#gallery_nav a:hover .icon {color: #01b6c7;}
+			.post_content .project_links > a:hover {
+				background: #01b6c7;
+			}
+			.comment-list .comment .comment_info a {
+				color: #01b6c7;
+			}
+			#cms-calendar tbody td.has_post {
+				background: #01b6c7;
+			}
+			.comment-list .comment .comment_reply_link a:hover {
+				background: #01b6c7;
+			}
+			#related_posts .related_posts h3 a:hover {color: #01b6c7;}
+			.gallery_section .switcher:hover i {
+				background: #01b6c7;
+			}
+			.gallery_section .more_link a:hover {
+				border: 2px solid #01b6c7;
+			}
+			.widget #popular_tabs .tab_title li a:hover {color: #01b6c7}
+			.gallery_section .more_link a:active {
+				background: #01b6c7;
+				border-color: #01b6c7;
+			}
+			.anim .gallery_posts .hentry .overlay .gal_mask {
+				background: #01b6c7;
+			}
+			.isotope_block.events .more_link a:active {
+				background: #01b6c7;
+			}
+			.textslider.slideshow li .slide_title {
+				color: #01b6c7;
+			}
+			.slideshow .flex-control-nav li a:hover,
+			.slideshow .flex-control-nav li a.flex-active {
+				background: #01b6c7;
+			}
+			.features_block .features_post .post_content {
+				background: #01b6c7;
+			}
+			.testi_slider .slides li .slide_title {
+				color: #01b6c7;
+			}
+			.testi_slider .slideshow .flex-control-nav li a:hover,
+			.testi_slider .slideshow .flex-control-nav li a.flex-active {
+				background: #01b6c7;
+			}
+			.sc_team .sc_team_item .profile_thumb .profile_overlay {
+				background: #01b6c7;
+			}
+			.sc_team .sc_team_item .sc_team_item_social a:hover {
+				color: #01b6c7;
+			}
+			#opt_block .block_content .content_row .color_selector {
+				background: #01b6c7;
+			}
+			.sc_tabs ul.tab_names li.tab_name a:hover {
+				color: #01b6c7;
+			}
+			.sc_tabs ul.tab_names li.tab_name a.current {
+				background: #01b6c7;
+			}
+			.sc_tabs.style2 ul.tab_names li a:hover {
+				border-color: #01b6c7;
+			}
+			.sc_tabs ul.tab_names li.tab_name a.current:hover,
+			.sc_tabs ul.tab_names li.tab_name a:active:hover {
+				color: #fff;
+			}
+			.sc_tabs.style2 ul.tab_names li a:active,
+			.sc_tabs.style2 ul.tab_names li a.current {
+				background: #01b6c7;
+				border-color: #01b6c7;
+			}
+			.sc_accordion .item h5 a:hover {
+				border-color: #01b6c7;
+			}
+			.sc_contact_form .enter:hover {
+				border-color: #01b6c7;
+				color: #01b6c7;
+			}
+			.sc_contact_form .enter:hover:active {color: #fff}
+			.sc_contact_form .enter:active {
+				border-color: #01b6c7;
+				background: #01b6c7;
+			}
+			.flickr_images .flickr_badge_image {
+				background: #01b6c7;
+			}
+			.mejs-controls .mejs-time-rail .mejs-time-current,
+			.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
+			nav #mainmenu li.follow {
+				background: #01b6c7;
+			}
+			a.sc_button.sc_button_regular:hover{
+				border-color: #01b6c7;
+				color: #01b6c7;
+			}			
+			.sc_tabs ul.tab_names li.tab_name a.current {
+				border-color: #01b6c7;
+			}
+			blockquote.sc_quote {
+				color: #01b6c7;
+			}
+			.sc_dropcaps.sc_dropcaps_style_2 .sc_dropcap {
+				background: #01b6c7;
+			}
+			
+			a.sc_button.sc_button_regular {
+				background: #01b6c7;
+				border-color: #01b6c7
+			}
+			
+			a.sc_button.sc_button_regular:hover {
+				border-color: #01b6c7;
+				color: #01b6c7;
+			}
+			
+			nav #mainmenu li ul li a:hover,
+			nav #mainmenu li ul li.sfHover > a, .sc_dropcaps.sc_dropcaps_style_1 .sc_dropcap , .slideshow li .slider_icon , .audio_data .sc_audio_author {
+				color: #01b6c7;
+			}
+			
+			article.format-status .extra_wrap, .gallery_section .switcher ul li a:hover, 
+			.gallery_section .switcher ul li a.active {
+				background: #01b6c7;
+			}
+			.sc_columns ol li,
+			ul.sc_list.sc_list_style_ico li:before,
+			ul.sc_list.sc_list_style_default li:before {
+				color: #01b6c7;
+			}
+			nav #mainmenu li ul {
+				border-color: #01b6c7;
+				width: 195px;
+			}
+			nav #mainmenu li ul li ul {
+				left: 196px;
+			}
+			a.sc_button.sc_button_border:hover {
+				border-color: #01b6c7;
+				color: #01b6c7;
+			}
+			a.sc_button.sc_button_border:active {
+				background: #01b6c7;
+				color:#fff
+			}		
+			.select-menu > ul li a:hover , #to_top:hover {
+				background: #01b6c7;
+				border-color: #01b6c7;
+			}
+			.featured_prods .product .prod_desc, .features_block .mCSB_scrollTools .mCSB_dragger , .sc_team .sc_team_item .sc_team_item_title {
+				color: #01b6c7;
+			}
+			#logo.textlogo,
+			nav #mainmenu > li > a {
+				color: #333333;
+			}
+			.isotope_block.events .isotope_single_item .event_caption .event_link_more:hover , .slide_more_link:hover {
+				color: #01b6c7;
+			}
+			.sc_banner .sc_banner_link:hover {
+				background: #01b6c7;
+				border-color: #01b6c7;
+			}
+			.text_slider .slideshow .flex-control-nav li a:hover, .text_slider .slideshow .flex-control-nav li a.flex-active {
+				background: #01b6c7;
+			}
+			.gallery_section .more_link a:hover,
+			.isotope_block.events .more_link a:hover {
+				border-color: #01b6c7;
+			}
+			.woocommerce a.button:hover, 
+			.woocommerce button.button:hover, 
+			.woocommerce input.button:hover, 
+			.woocommerce #respond input#submit:hover, 
+			.woocommerce #content input.button:hover, 
+			.woocommerce-page a.button:hover, 
+			.woocommerce-page button.button:hover, 
+			.woocommerce-page input.button:hover, 
+			.woocommerce-page #respond input#submit:hover, 
+			.woocommerce-page #content input.button:hover {
+				background: #01b6c7 !important;
+				border-color:#01b6c7 !important;
+				color: #fff  !important;
+			}
+			
+			nav #mainmenu > li:after {
+				background: #01b6c7;
+			}
+			
+			.features_block .mCSB_scrollTools .mCSB_dragger{
+				background: #01b6c7;
+			}
+			
+			article .post_thumb{
+				background: #01b6c7;
+			}
+			
+			::selection {
+			background: #01b6c7; /* Safari */
+			color: #fff;
+			}
+			
+			.sc_skills .sc_skills_item .sc_skills_progress{
+				background: #01b6c7;
+			}
+			
+			.sc_skills .sc_skills_item .sc_skills_level {
+				color: #01b6c7;
+			}
+			
+			.sc_highlight {
+				background-color: #01b6c7;
+			}
+			
+			.sc_highlight.style_1 {
+				color: #01b6c7; /* default color */
+			}
+			
+			.post_thumb .icon:hover, .video_frame_wrap:hover .icon {
+				background: #01b6c7;
+				border-color: #01b6c7;
+			}
+			
+			.slideshow .flex-direction-nav li a:hover {
+				background: #01b6c7; 
+				border-color: #01b6c7; 
+			}
+			
+			.sc_tooltip {
+				background: #01b6c7;
+			}
+			
+			.sc_tooltip:after {
+				border-color: #01b6c7 transparent transparent;
+			}
+			
+			.tribe-events-back a, .tribe-events-meta-group a, ul.tribe-events-sub-nav a{
+				color: #01b6c7;
+			}
+			
+			.iso_filters li a.current, .iso_filters li a:hover, .sc_thumbs.thumb_wrap .thumb_item a{
+				color: #01b6c7;
+			}
+			
+			.isotope_block .switcher ul li a:hover, .isotope_block .switcher ul li a.active { 				
+				background: #01b6c7; 			
+			}
+			
+			#tribe-events-content .tribe-events-calendar div[id*="tribe-events-event-"] h3.tribe-events-month-event-title a{
+				color: #01b6c7;
+			}
+			
+			.post_content .project_links > a{ 
+				color: #01b6c7;
+			}
+			
+			.isotope_block .switcher:hover i{
+				background: #01b6c7; 			
+			}
+			
+			#tribe-events-content .tribe-events-tooltip h4{ 				
+				color: #01b6c7; 			
+			}
+			
+			.slide_more_link:hover{
+				border: 1px solid #01b6c7;
+			}
+			
+			.slide_more_link:active{
+				background: #01b6c7;
+			}
+			
+			.gallery_section .more_link a:hover, .isotope_block.events .more_link a:hover {
+				border-color: #01b6c7;
+				color: #01b6c7;
+			}
+			
+			.gallery_section .more_link .load_posts_request:hover {
+				 border: 1px solid #01b6c7;
+			}
