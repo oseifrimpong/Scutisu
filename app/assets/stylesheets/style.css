@@ -313,11 +313,11 @@ input[type="submit"] {
 input[type="submit"]:hover {
     padding: 0 28px 0px;
     height: 45px;
-    border: 2px solid #01b6c7;
+    //border: 2px solid #01b6c7;
 }
 
 input[type="submit"]:hover:active {
-    background: #01b6c7;
+    //background: #01b6c7;
 }
 
 form label {
@@ -555,7 +555,7 @@ nav #mainmenu li.follow {
     position: absolute;
     bottom: 0;
     height: 2px;
-    background: #01b6c7;
+    background: black;
     display: block;
     padding: 0;
 }
@@ -582,7 +582,7 @@ nav #mainmenu > li:after {
     -o-transition: all ease .6s;
     transition: all ease .6s;
     content: "";
-    background: #01b6c7;
+    background: black;
 }
 
 nav #mainmenu li a {
@@ -613,12 +613,12 @@ nav #mainmenu li ul {
     width: 195px;
     left: 0px;
     top: 82px;
-    border-top: 1px solid #01b6c7;
+    border-top: 1px solid black;
 }
 
 nav #mainmenu li ul li {
     position: relative;
-    background: #f7f9f9;
+    background: black;
 }
 
 nav #mainmenu li ul li a {
@@ -634,7 +634,7 @@ nav #mainmenu li ul li a {
 nav #mainmenu li ul li a:hover,
 nav #mainmenu li ul li.sfHover > a,
 nav #mainmenu li ul li.current_page_item > a {
-    color: #01b6c7;
+    color: black;
 }
 
 nav #mainmenu li ul li ul {
