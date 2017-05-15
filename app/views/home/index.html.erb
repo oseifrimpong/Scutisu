@@ -28,38 +28,47 @@
                   <nav id="mainmenu_area">
                      <ul id="mainmenu">
                         <li class="current-menu-item">
-                           <a href="#">Home</a>
+                          <%= link_to("Home", root_path ) %>
                         </li>
                         <li>
-                              <a href="#">About Us</a>
+                              <%= link_to("About", about_index_path ) %>
                            </li>
-                           <li><a href="#">Book Exchange</a>
+                           <li>
+                           <%= link_to("Book Exchange", books_path) %>
                            </li>
                            <li><a href="#">Gallery</a></li>
                            <li><a href="#">Blog</a>
                            </li>
-                           <li><a href="#">Events</a>
+                           <li>
+                           <%= link_to("Events",events_path) %>
                            </li>
-                           <li><a href="#">Contact Us</a>
+                           <li>
+                           <%= link_to("Contact Us", contact_index_path) %>
+                           </li>
                         </li>
                      </ul>
                      <div class="mobile_menu">
                         <a><span>Homepage 1</span></a>
                         <ul>
-                           <li>
-                              <a href="#">Home</a>
+                        <li>
+                          <%= link_to("Home", root_path ) %>
+                        </li>
+                        <li>
+                              <%= link_to("About", about_index_path ) %>
                            </li>
                            <li>
-                              <a href="#">About Us</a>
+                           <%= link_to("Book Exchange", books_path ) %>
                            </li>
-                           <li><a href="#">Book Exchange</a>
-                           </li>
+                           <li><a href="#">Gallery</a></li>
                            <li><a href="#">Blog</a>
                            </li>
-                           <li><a href="#">Events</a>
+                           <li>
+                           <%= link_to("Events", events_path) %>
                            </li>
-                           <li><a href="#">Contact Us</a>
+                           <li>
+                           <%= link_to("Contact Us", contact_index_path) %>
                            </li>
+                        </li>
                         </ul>
                      </div>
                   </nav>
