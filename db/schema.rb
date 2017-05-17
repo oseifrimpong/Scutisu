@@ -36,26 +36,20 @@ ActiveRecord::Schema.define(version: 20170511061759) do
     t.string   "name"
     t.string   "bio"
     t.string   "email"
-    t.integer  "book_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["book_id"], name: "index_authors_on_book_id", using: :btree
   end
 
   create_table "book_requests", force: :cascade do |t|
     t.string   "studentID"
     t.string   "phone"
-    t.integer  "book_id"
-    t.integer  "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["book_id"], name: "index_book_requests_on_book_id", using: :btree
-    t.index ["user_id"], name: "index_book_requests_on_user_id", using: :btree
   end
 
   create_table "books", force: :cascade do |t|
+    t.integer  "author_id"
     t.string   "title"
-    t.string   "author"
     t.string   "description"
     t.string   "language"
     t.string   "year"
@@ -63,6 +57,7 @@ ActiveRecord::Schema.define(version: 20170511061759) do
     t.string   "subject"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
+    t.index ["author_id"], name: "index_books_on_author_id", using: :btree
   end
 
   create_table "events", force: :cascade do |t|
@@ -97,7 +92,4 @@ ActiveRecord::Schema.define(version: 20170511061759) do
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
   end
 
-  add_foreign_key "authors", "books"
-  add_foreign_key "book_requests", "books"
-  add_foreign_key "book_requests", "users"
 end
