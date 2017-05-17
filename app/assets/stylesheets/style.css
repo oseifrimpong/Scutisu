@@ -1,13 +1,6 @@
-﻿/*
-Theme Name: Family Church HTML
-Theme URI: http://fc-html.themerex.net/
-Author: themerex
-Author URI: http://themerex.net/
-Version: 1.0
-*/
+﻿
 
-/* =Reset
--------------------------------------------------------------- */
+
 /*-------------------------------------------------------------- 
 [Table of contents]
 
@@ -54,16 +47,68 @@ Version: 1.0
 41. Shortcodes
 42. Choose your style block
 -------------------------------------------------------------- */
- @import url('../assets/fontello.css');
+
+@import url('../assets/fontello.css');
+
 /* ======================================= Body =================================== */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, font, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
     border: 0;
     font-family: inherit;
     font-size: 100%;
@@ -74,7 +119,10 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     padding: 0;
     vertical-align: baseline;
 }
+
+
 /* ======================================= Settings =================================== */
+
 body {
     background: #f5f7f7;
     font-family: 'Source Sans Pro', sans-serif;
@@ -91,11 +139,11 @@ table {
 
 html {
     overflow-y: scroll;
- /* Keeps page centred in all browsers regardless of content height */
+    /* Keeps page centred in all browsers regardless of content height */
     -webkit-text-size-adjust: 100%;
- /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
+    /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
     -ms-text-size-adjust: 100%;
- /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
+    /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
     ;
 }
 
@@ -253,30 +301,32 @@ textarea {
 }
 
 input::-webkit-input-placeholder {
- /* WebKit browsers */
+    /* WebKit browsers */
     color: #333;
     opacity: 1;
 }
 
 input:-moz-placeholder {
- /* Mozilla Firefox 4 to 18 */
+    /* Mozilla Firefox 4 to 18 */
     color: #333;
     opacity: 1;
 }
 
 input::-moz-placeholder {
- /* Mozilla Firefox 19+ */
+    /* Mozilla Firefox 19+ */
     color: #333;
     opacity: 1;
 }
 
 input:-ms-input-placeholder {
- /* Internet Explorer 10+ */
+    /* Internet Explorer 10+ */
     color: #333;
     opacity: 1;
 }
 
-button, button:active, button:focus {
+button,
+button:active,
+button:focus {
     outline: none;
     border: none;
 }
@@ -354,14 +404,14 @@ select {
 
 ::selection {
     background: #01b6c7;
- /* Safari */
+    /* Safari */
     color: #fff;
 }
 
 ::-moz-selection {
     color: #fff;
     background: #01b6c7;
- /* Firefox */
+    /* Firefox */
     ;
 }
 
@@ -386,8 +436,7 @@ strong {
 .wp-caption-text,
 .sticky,
 .gallery-caption,
-.bypostauthor {
-}
+.bypostauthor {}
 
 .alignleft {
     display: inline;
@@ -433,23 +482,23 @@ article .content_text ul {
 }
 
 body.pattern_1 {
-    background-image: url(../images/patterns/pattern_1.jpg);
+    background-image: url(../assets/pattern_1.jpg);
 }
 
 body.pattern_2 {
-    background-image: url(../images/patterns/pattern_2.jpg);
+    background-image: url(../assets/pattern_2.jpg);
 }
 
 body.pattern_3 {
-    background-image: url(../images/patterns/pattern_3.jpg);
+    background-image: url(../assets/pattern_3.jpg);
 }
 
 body.pattern_4 {
-    background-image: url(../images/patterns/pattern_4.jpg);
+    background-image: url(../assets/pattern_4.jpg);
 }
 
 body.pattern_5 {
-    background-image: url(../images/patterns/pattern_5.jpg);
+    background-image: url(../assets/pattern_5.jpg);
 }
 
 body.image_bg {
@@ -457,31 +506,39 @@ body.image_bg {
     background-position: center 0 !important;
     background-attachment: fixed !important;
 }
+
+
 /* ======================================= Patterns =================================== */
 
 .pattern_1 {
-    background: url(../images/patterns/pattern_1.jpg) 0 0 repeat;
+    background: url(../assets/pattern_1.jpg) 0 0 repeat;
 }
 
 .pattern_2 {
-    background: url(../images/patterns/pattern_2.jpg) 0 0 repeat;
+    background: url(../assets/pattern_2.jpg) 0 0 repeat;
 }
 
 .pattern_3 {
-    background: url(../images/patterns/pattern_3.jpg) 0 0 repeat;
+    background: url(../assets/pattern_3.jpg) 0 0 repeat;
 }
 
 .pattern_4 {
-    background: url(../images/patterns/pattern_4.jpg) 0 0 repeat;
+    background: url(../assets/pattern_4.jpg) 0 0 repeat;
 }
 
 .pattern_5 {
-    background: url(../images/patterns/pattern_5.jpg) 0 0 repeat;
+    background: url(../assets/pattern_5.jpg) 0 0 repeat;
 }
+
+
 /* ======================================= Ends Patterns =================================== */
+
+
 /* ======================================= Ends Settings =================================== */
 
+
 /* ======================================= Header =================================== */
+
 .section_wrap {
     width: 100%;
     max-width: 1140px;
@@ -492,7 +549,10 @@ body.image_bg {
     background: #fff;
     background-color: #ffffff;
 }
+
+
 /* ======================================= Menu =================================== */
+
 #header .section1.events_page {
     padding-bottom: 73px;
 }
@@ -500,7 +560,7 @@ body.image_bg {
 #header .section2 .gap_fullwidth {
     margin-bottom: 0;
     background-attachment: fixed;
-    height:58%;
+    height: 58%;
 }
 
 #header .section2 .gap_fullwidth .container {
@@ -582,7 +642,7 @@ nav #mainmenu > li:after {
     -o-transition: all ease .6s;
     transition: all ease .6s;
     content: "";
-    background: #01b6c7;
+    background: #01b6c7 !important;
 }
 
 nav #mainmenu li a {
@@ -616,9 +676,11 @@ nav #mainmenu li ul {
     border-top: 1px solid #01b6c7;
 }
 
+
 nav #mainmenu li ul li {
     position: relative;
-    background: #f7f9f9;
+    background: #01b6c7;
+   
 }
 
 nav #mainmenu li ul li a {
@@ -634,7 +696,7 @@ nav #mainmenu li ul li a {
 nav #mainmenu li ul li a:hover,
 nav #mainmenu li ul li.sfHover > a,
 nav #mainmenu li ul li.current_page_item > a {
-    color: #01b6c7;
+    color: #01b6c7 !important;
 }
 
 nav #mainmenu li ul li ul {
@@ -656,15 +718,18 @@ nav #mainmenu li ul li ul {
     left: 0;
 }
 
-.select-menu .select-menu-button {
-}
+.select-menu .select-menu-button {}
 
 .mobile_menu {
     display: none;
 }
+
+
 /* ======================================= Ends Menu =================================== */
 
+
 /* ======================================= Parallax =================================== */
+
 .section2 {
     padding-top: 65px;
     overflow: hidden;
@@ -739,7 +804,7 @@ nav #mainmenu li ul li ul {
     font-size: 14px;
     line-height: 18px;
     display: inline-block;
-    border: 1px solid rgba(255,255,255,.4);
+    border: 1px solid rgba(255, 255, 255, .4);
     color: #fff;
     font-weight: 700;
     text-transform: uppercase;
@@ -758,87 +823,97 @@ nav #mainmenu li ul li ul {
     color: #fff;
 }
 
-#parallax_1{
-	opacity: 0.99;
+#parallax_1 {
+    opacity: 0.99;
 }
 
 #parallax_3 {
-    background: url(../images/parallax/home_prlx.jpg)  50% 0 fixed repeat;
+    background: url(../images/parallax/home_prlx.jpg) 50% 0 fixed repeat;
     background-size: cover;
 }
 
 #parallax_4 {
-    background: url(../images/parallax/home_page_2/lake.jpg)  50% 0 fixed repeat;
+    background: url(../images/parallax/home_page_2/lake.jpg) 50% 0 fixed repeat;
     background-size: cover;
 }
 
 #parallax_5 {
-    background: url(../images/parallax/home_prlx.jpg)  50% 0 fixed repeat;
+    background: url(../images/parallax/home_prlx.jpg) 50% 0 fixed repeat;
     background-size: cover;
     margin-bottom: 0px;
 }
 
 #parallax_6 {
-    background: url(../images/sizes/1920x643.png)  50% 0 fixed repeat;
+    background: url(../images/sizes/1920x643.png) 50% 0 fixed repeat;
     background-size: cover;
 }
 
 #parallax_6 .sc_banner {
     width: 630px;
 }
+
+
 /* ======================================= Ends Parallax  =================================== */
+
+
 /* ======================================= Parallax Theme =================================== */
+
 .parallax_theme_lake {
-    background: url(../parallax_theme/lake.jpg)  50% 0 fixed repeat;
+    background: url(../parallax_theme/lake.jpg) 50% 0 fixed repeat;
     background-size: cover;
 }
 
 .parallax_theme_field {
-    background: url(../parallax_theme/field.jpg)  50% 0 fixed repeat;
+    background: url(../parallax_theme/field.jpg) 50% 0 fixed repeat;
     background-size: cover;
 }
 
 .parallax_theme_glacier {
-    background: url(../parallax_theme/glacier.jpg)  50% 0 fixed repeat;
+    background: url(../parallax_theme/glacier.jpg) 50% 0 fixed repeat;
     background-size: cover;
 }
 
 .parallax_theme_tropic {
-    background: url(../parallax_theme/tropic.jpg)  50% 0 fixed repeat;
+    background: url(../parallax_theme/tropic.jpg) 50% 0 fixed repeat;
     background-size: cover;
 }
 
 .parallax_theme_sky {
-    background: url(../parallax_theme/sky.jpg)  50% 0 fixed repeat;
+    background: url(../parallax_theme/sky.jpg) 50% 0 fixed repeat;
     background-size: cover;
 }
 
 .parallax_theme_flame {
-    background: url(../parallax_theme/flame.jpg)  50% 0 fixed repeat;
+    background: url(../parallax_theme/flame.jpg) 50% 0 fixed repeat;
     background-size: cover;
 }
 
 .parallax_theme_sunflower {
-    background: url(../parallax_theme/sunflower.jpg)  50% 0 fixed repeat;
+    background: url(../parallax_theme/sunflower.jpg) 50% 0 fixed repeat;
     background-size: cover;
 }
 
 .parallax_theme_bich {
-    background: url(../parallax_theme/bich.jpg)  50% 0 fixed repeat;
+    background: url(../parallax_theme/bich.jpg) 50% 0 fixed repeat;
     background-size: cover;
 }
 
 .parallax_theme_boardwalk {
-    background: url(../parallax_theme/boardwalk.jpg)  50% 0 fixed repeat;
+    background: url(../parallax_theme/boardwalk.jpg) 50% 0 fixed repeat;
     background-size: cover;
 }
 
 .parallax_theme_sand_and_water {
-    background: url(../parallax_theme/sand_and_water.jpg)  50% 0 fixed repeat;
+    background: url(../parallax_theme/sand_and_water.jpg) 50% 0 fixed repeat;
     background-size: cover;
 }
+
+
 /* ======================================= Ends Parallax Theme =================================== */
+
+
 /* ======================================= Slider =================================== */
+
 .slideshow.flexslider {
     position: relative;
     padding-bottom: 57px;
@@ -1016,7 +1091,7 @@ nav #mainmenu li ul li ul {
 
 .slideshow.textslider li .slide_extra {
     padding-right: 30px;
-	padding-left: 30px;
+    padding-left: 30px;
 }
 
 .slideshow.textslider li .slider_thumb img {
@@ -1083,7 +1158,7 @@ nav #mainmenu li ul li ul {
     font-size: 18px;
     line-height: 22px;
     padding: 11px 27px 13px;
-    border: 1px solid rgba(255,255,255, .3);
+    border: 1px solid rgba(255, 255, 255, .3);
     text-decoration: none;
 }
 
@@ -1107,7 +1182,7 @@ nav #mainmenu li ul li ul {
 .slide_more_link {
     font-size: 14px;
     line-height: 18px;
-    border: 1px solid rgba(255,255,255, .4);
+    border: 1px solid rgba(255, 255, 255, .4);
     display: inline-block;
     padding: 14px 18px 15px;
     text-decoration: none;
@@ -1131,8 +1206,8 @@ nav #mainmenu li ul li ul {
 
 .gap_fullwidth .text_slider {
     padding: 75px 0 0px;
-	padding-left: 30px;
-	padding-right: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .text_slider .slides li {
@@ -1203,9 +1278,15 @@ nav #mainmenu li ul li ul {
 .text_slider .slideshow .flex-control-nav li a.flex-active {
     background: #01b6c7;
 }
+
+
 /* ======================================= Ends Slider =================================== */
+
+
 /* ======================================= Search Form =================================== */
-#searchform input[type="text"], #searchform_1 input[type="text"] {
+
+#searchform input[type="text"],
+#searchform_1 input[type="text"] {
     line-height: 20px;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 14px;
@@ -1220,7 +1301,8 @@ nav #mainmenu li ul li ul {
     transition: background ease .5s;
 }
 
-#searchform input[type="text"], #searchform_1 input[type="text"] {
+#searchform input[type="text"],
+#searchform_1 input[type="text"] {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     width: 100%;
@@ -1237,28 +1319,33 @@ textarea:focus {
     background-image: none;
 }
 
-#searchform label, #searchform_1 label {
+#searchform label,
+#searchform_1 label {
     display: none;
 }
 
-#searchform input[type="search"], #searchform_1 input[type="search"] {
+#searchform input[type="search"],
+#searchform_1 input[type="search"] {
     width: 90px;
 }
 
-#searchform, #searchform_1 {
+#searchform,
+#searchform_1 {
     margin-top: 21px;
     border-radius: 3px;
     border: 1px solid #fff;
     background: #fff;
 }
 
-.section2 #searchform, .section2 #searchform_1 {
+.section2 #searchform,
+.section2 #searchform_1 {
     background: none;
     float: right;
-    border: 1px solid rgba(255,255,255,.4);
+    border: 1px solid rgba(255, 255, 255, .4);
 }
 
-#searchform .submit, #searchform_1 .submit {
+#searchform .submit,
+#searchform_1 .submit {
     font-size: 28px;
     background: none;
     line-height: 34px;
@@ -1277,20 +1364,24 @@ textarea:focus {
     color: #a4a4a4;
 }
 
-.section2 #searchform .submit, .section2 #searchform_1 .submit {
+.section2 #searchform .submit,
+.section2 #searchform_1 .submit {
     color: #fff;
 }
 
-#searchform .submit span:before, #searchform_1 .submit span:before {
+#searchform .submit span:before,
+#searchform_1 .submit span:before {
     width: auto;
     margin: 0;
 }
 
-#searchform .submit:hover , #searchform_1.submit:hover {
+#searchform .submit:hover,
+#searchform_1.submit:hover {
     opacity: 1;
 }
 
-#searchform input[type="search"], #searchform_1 input[type="search"] {
+#searchform input[type="search"],
+#searchform_1 input[type="search"] {
     outline: none;
     vertical-align: top;
     border: none;
@@ -1301,11 +1392,13 @@ textarea:focus {
     font-size: 16px;
 }
 
-.section2 #searchform input[type="search"], .section2 #searchform_1 input[type="search"] {
+.section2 #searchform input[type="search"],
+.section2 #searchform_1 input[type="search"] {
     color: #fff;
 }
 
-.widget_search #searchform input[type="search"], .widget_search #searchform_1 input[type="search"] {
+.widget_search #searchform input[type="search"],
+.widget_search #searchform_1 input[type="search"] {
     width: 263px;
 }
 
@@ -1326,11 +1419,19 @@ textarea:focus {
     color: #a4a4a4;
     font-size: 16px;
 }
+
+
 /* ======================================= Ends Search Form =================================== */
+
+
 /* ======================================= Ends Parallax =================================== */
+
+
 /* ======================================= Ends Header =================================== */
 
+
 /* ======================================= Content =================================== */
+
 #main:after {
     clear: both;
     width: 100%;
@@ -1370,7 +1471,10 @@ textarea:focus {
     margin: 0 auto;
     padding-bottom: 56px;
 }
+
+
 /* ======================================= Countdown Block =================================== */
+
 .countdown_block {
     padding: 41px 0 39px;
     overflow: hidden;
@@ -1461,8 +1565,13 @@ textarea:focus {
 .countdown_block.style_1 .block_wrap .countdown {
     color: #fff;
 }
+
+
 /* ======================================= Ends Countdown Block =================================== */
+
+
 /* ======================================= Isotope settings =================================== */
+
 .isotope-item {
     z-index: 2;
 }
@@ -1471,6 +1580,7 @@ textarea:focus {
     pointer-events: none;
     z-index: 1;
 }
+
 
 /**** Isotope CSS3 transitions ****/
 
@@ -1499,6 +1609,7 @@ textarea:focus {
     transition-property: transform, opacity;
 }
 
+
 /**** disabling Isotope CSS3 transitions ****/
 
 .isotope.no-transition,
@@ -1510,8 +1621,13 @@ textarea:focus {
     -o-transition-duration: 0s;
     transition-duration: 0s;
 }
+
+
 /* ======================================= /Isotope settings =================================== */
+
+
 /* ======================================= Features Block =================================== */
+
 .features_block {
     position: relative;
     z-index: 100;
@@ -1533,8 +1649,8 @@ textarea:focus {
 
 .features_block .mCSB_container {
     margin-bottom: 72px;
-	overflow: hidden;
-	max-height: 270px;
+    overflow: hidden;
+    max-height: 270px;
 }
 
 .gap_fullwidth h2.section_title {
@@ -1565,7 +1681,7 @@ textarea:focus {
     height: 1px;
     background: #fff;
     opacity: .22;
-    filter: alpha(opacity = 22);
+    filter: alpha(opacity=22);
 }
 
 .features_block .mCSB_scrollTools {
@@ -1711,8 +1827,13 @@ textarea:focus {
     bottom: 0;
     display: none;
 }
+
+
 /* ======================================= Ends Features Block =================================== */
+
+
 /* ======================================= Post  =================================== */
+
 article.post {
     opacity: 0;
     overflow: hidden;
@@ -1727,17 +1848,14 @@ article.post.vis {
         transform: scale(.1);
         -webkit-transform: scale(.1);
     }
-
     25% {
         transform: scale(.3);
         -webkit-transform: scale(.3);
     }
-
     50% {
         transform: scale(.7);
         -webkit-transform: scale(.7);
     }
-
     100% {
         transform: scale(1);
         -webkit-transform: scale(1);
@@ -1749,17 +1867,14 @@ article.post.vis {
         transform: scale(.1);
         -webkit-transform: scale(.1);
     }
-
     25% {
         transform: scale(.3);
         -webkit-transform: scale(.3);
     }
-
     50% {
         transform: scale(.7);
         -webkit-transform: scale(.7);
     }
-
     100% {
         transform: scale(1);
         -webkit-transform: scale(1);
@@ -2136,6 +2251,7 @@ article.post .post_info .post_author {
     padding: 0;
     width: 100% !important;
 }
+
 .post_content #ssba {
     padding-bottom: 2px;
 }
@@ -2157,7 +2273,10 @@ article.post .post_info .post_author {
     text-transform: uppercase;
     color: #333;
 }
+
+
 /* ======================================= Audio =================================== */
+
 article.format-gallery .post_thumb,
 article.format-audio .post_thumb {
     background: none;
@@ -2175,8 +2294,12 @@ article.post.format-audio .post_info {
     margin-bottom: 4px;
 }
 
+
 /* ======================================= Ends Audio =================================== */
+
+
 /* ======================================= Video =================================== */
+
 .format-video .post_thumb {
     position: relative;
     cursor: pointer;
@@ -2227,8 +2350,13 @@ article.post.format-audio .post_info {
     transition: all ease-out .5s;
     vertical-align: top;
 }
+
+
 /* ======================================= Ends  Video =================================== */
+
+
 /* ======================================= Aside =================================== */
+
 article.format-aside .extra_wrap {
     background: #204a65;
     color: #fff;
@@ -2251,8 +2379,13 @@ article.format-aside .extra_wrap .post_content p {
 article.format-aside .extra_wrap a:hover {
     color: #fff;
 }
+
+
 /* ======================================= Ends Aside =================================== */
+
+
 /* ======================================= Status =================================== */
+
 article.format-status .extra_wrap {
     color: #fff;
     background: #01b6c7;
@@ -2287,8 +2420,13 @@ article.format-status .extra_wrap .post_info {
     text-decoration: none;
     margin-left: 3px;
 }
+
+
 /* ======================================= Ends Status =================================== */
+
+
 /* ======================================= Image =================================== */
+
 article.format-image .extra_wrap {
     position: relative;
 }
@@ -2318,8 +2456,13 @@ article.format-image .extra_wrap .post_title:after {
     border-style: solid;
     border-color: #fff red transparent transparent;
 }
+
+
 /* ======================================= Ends Image =================================== */
+
+
 /* ======================================= Link =================================== */
+
 article.format-link .extra_wrap {
     padding-top: 4px;
 }
@@ -2338,8 +2481,13 @@ article.format-link .post_link {
     font-weight: 300;
     text-decoration: none;
 }
+
+
 /* ======================================= Ends Link =================================== */
+
+
 /* ======================================= Quote =================================== */
+
 article.post.format-quote .post_info {
     margin-bottom: 0;
 }
@@ -2364,8 +2512,8 @@ article.post.format-quote .quote_wrap {
     color: #01b6c7;
 }
 
-.quote_wrap.bg{
-	font-size: 26px;
+.quote_wrap.bg {
+    font-size: 26px;
 }
 
 .single article.post.format-quote .quote_wrap {
@@ -2439,8 +2587,13 @@ article.post.format-quote .quote_wrap .inner .icon {
     height: 1px;
     background: #D5DADE;
 }
+
+
 /* ======================================= Ends Quote =================================== */
+
+
 /* ======================================= Chat =================================== */
+
 article.post.format-chat .post_content ul {
     margin: 0;
     list-style: none;
@@ -2476,8 +2629,13 @@ article.post.format-chat .post_content ul li a {
 article.post.format-chat .post_content > ul > li ul {
     padding: 2px 0 0 0;
 }
+
+
 /* ======================================= Ends Chat =================================== */
+
+
 /* ======================================= Read More =================================== */
+
 div.readmore {
     padding-top: 16px;
 }
@@ -2504,8 +2662,13 @@ div.readmore {
     background: #01b6c7;
     color: #fff;
 }
+
+
 /* ======================================= Ends Read More  =================================== */
+
+
 /* ======================================= Gallery =================================== */
+
 .anim .gallery_posts .hentry .gallery_thumb img {
     width: 100%;
     height: auto;
@@ -2538,7 +2701,7 @@ div.readmore {
     left: 0;
     top: 0;
     opacity: 0;
-    filter: alpha(opacity = 0);
+    filter: alpha(opacity=0);
     -webkit-transition: all ease .3s;
     -moz-transition: all ease .3s;
     -ms-transition: all ease .3s;
@@ -2593,12 +2756,12 @@ div.readmore {
 .anim .gallery_posts .hentry.follow .overlay {
     left: -100%;
     opacity: 1;
-    filter: alpha(opacity = 100);
+    filter: alpha(opacity=100);
 }
 
 .anim .gallery_posts .hentry.shift:hover .overlay {
     opacity: 1;
-    filter: alpha(opacity = 100);
+    filter: alpha(opacity=100);
     top: 20px;
     left: 20px;
 }
@@ -2701,16 +2864,15 @@ div.readmore {
 }
 
 .anim .gallery_posts .hentry.flip > a > .overlay.post_info .icon {
-    filter: alpha(opacity = 0);
+    filter: alpha(opacity=0);
 }
 
 .anim .gallery_posts .hentry.flip:hover > a > .overlay.post_info,
 .anim .gallery_posts .hentry.flip:hover > a > .overlay.post_info .icon {
-    filter: alpha(opacity = 100);
+    filter: alpha(opacity=100);
 }
 
-.col1 .gallery_posts .hentry {
-}
+.col1 .gallery_posts .hentry {}
 
 .article_header {
     padding: 43px 0 23px;
@@ -2809,7 +2971,11 @@ div.readmore {
 #gallery_nav a[rel='next'] {
     margin-left: 20px;
 }
+
+
 /* ======================================= Ends Gallery =================================== */
+
+
 /* ======================================= Events =================================== */
 
 h2.events_title {
@@ -2912,7 +3078,7 @@ h2.events_title {
     background: #01b6c7;
 }
 
-.gallery_section .more_link a ,
+.gallery_section .more_link a,
 .isotope_block.events .more_link a {
     display: inline-block;
     padding: 14px 19px 15px;
@@ -2924,10 +3090,10 @@ h2.events_title {
     text-decoration: none;
     color: #333;
     -webkit-transition: all ease .5s;
-	-moz-transition: all ease .5s;
-	-ms-transition: all ease .5s;
-	-o-transition: all ease .5s;
-	transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    -ms-transition: all ease .5s;
+    -o-transition: all ease .5s;
+    transition: all ease .5s;
 }
 
 .gallery_section .more_link a.no_results,
@@ -3011,7 +3177,7 @@ h2.events_title {
     line-height: 30px;
     font-weight: 300;
     margin-bottom: 28px;
-	min-height: 60px;
+    min-height: 60px;
 }
 
 .col2.isotope_block.events .isotope_single_item .event_caption h3 {
@@ -3086,7 +3252,7 @@ h2.events_title {
 }
 
 #tribe-bar-form input[type="text"] {
-    border: 1px solid rgba(255,255,255, .4);
+    border: 1px solid rgba(255, 255, 255, .4);
     color: #fff;
     border-radius: 2px;
     width: auto;
@@ -3122,7 +3288,7 @@ h2.events_title {
     margin-left: 0;
 }
 
-#tribe-bar-dates:after, 
+#tribe-bar-dates:after,
 .tribe-bar-search-filter:after,
 .tribe-bar-views-inner:after {
     clear: both;
@@ -3184,7 +3350,7 @@ h2.events_title {
 }
 
 #tribe-bar-form .tribe-bar-submit input[type="submit"] {
-    border: 1px solid rgba(255,255,255, .4);
+    border: 1px solid rgba(255, 255, 255, .4);
     background: none;
     padding: 13px 20px 13px;
     font-size: 14px;
@@ -3214,7 +3380,7 @@ h2.events_title {
     left: auto;
     right: 0;
     width: 120px;
-    border: 1px solid rgba(255,255,255, .4);
+    border: 1px solid rgba(255, 255, 255, .4);
     border-radius: 3px;
     -webkit-transition: all ease .3s;
     -moz-transition: all ease .3s;
@@ -3288,7 +3454,7 @@ h2.events_title {
 #tribe-events-content-wrapper .events_parallax {
     margin-bottom: 54px;
     padding: 27px 0 8px;
-    background: url(../images/parallax/home_prlx.jpg)  50% 0 fixed repeat;
+    background: url(../images/parallax/home_prlx.jpg) 50% 0 fixed repeat;
     background-size: cover;
 }
 
@@ -3297,7 +3463,8 @@ h2.events_title {
 }
 
 h2.tribe-events-page-title,
-h2.tribe-events-page-title, #tribe-geo-results h2.tribe-events-page-title {
+h2.tribe-events-page-title,
+#tribe-geo-results h2.tribe-events-page-title {
     font-size: 49px;
     letter-spacing: -1px;
     font-weight: 400;
@@ -3325,7 +3492,7 @@ h2.tribe-events-page-title, #tribe-geo-results h2.tribe-events-page-title {
     background: none;
 }
 
-#tribe-events-header, 
+#tribe-events-header,
 #tribe-events-footer {
     margin-bottom: 0;
 }
@@ -3345,9 +3512,9 @@ h2.tribe-events-page-title, #tribe-geo-results h2.tribe-events-page-title {
     background: #fff;
 }
 
-.events-list .tribe-events-loop, 
-.tribe-events-day .tribe-events-loop, 
-.single-tribe_venue .tribe-events-loop, 
+.events-list .tribe-events-loop,
+.tribe-events-day .tribe-events-loop,
+.single-tribe_venue .tribe-events-loop,
 .single-tribe_organizer .tribe-events-loop {
     width: 100%;
     max-width: 1180px;
@@ -3363,8 +3530,8 @@ h2.tribe-events-page-title, #tribe-geo-results h2.tribe-events-page-title {
     margin: 0 0 10px 0;
 }
 
-#tribe-events-pg-template .tribe-events-content p, 
-.tribe-events-before-html p, 
+#tribe-events-pg-template .tribe-events-content p,
+.tribe-events-before-html p,
 .tribe-events-after-html p {
     line-height: 22px;
 }
@@ -3413,7 +3580,7 @@ h2.tribe-events-page-title, #tribe-geo-results h2.tribe-events-page-title {
     margin-bottom: 12px;
 }
 
-.tribe-events-list .tribe-events-venue-details, 
+.tribe-events-list .tribe-events-venue-details,
 .tribe-events-event-meta address.tribe-events-address {
     font-size: 16px;
     line-height: 22px;
@@ -3437,10 +3604,10 @@ h2.tribe-events-page-title, #tribe-geo-results h2.tribe-events-page-title {
 }
 
 #tribe-events-footer,
-.single-tribe_events #tribe-events-footer, 
-.tribe-events-day #tribe-events-footer, 
-.events-list #tribe-events-footer, 
-.tribe-events-map #tribe-events-footer, 
+.single-tribe_events #tribe-events-footer,
+.tribe-events-day #tribe-events-footer,
+.events-list #tribe-events-footer,
+.tribe-events-map #tribe-events-footer,
 .tribe-events-photo #tribe-events-footer {
     border: none;
     padding: 0;
@@ -3496,7 +3663,7 @@ h2.tribe-events-page-title, #tribe-geo-results h2.tribe-events-page-title {
     border-style: solid;
 }
 
-.tribe-events-calendar td.tribe-events-past div[id*="tribe-events-daynum-"], 
+.tribe-events-calendar td.tribe-events-past div[id*="tribe-events-daynum-"],
 .tribe-events-calendar td.tribe-events-past div[id*="tribe-events-daynum-"] > a {
     background: none;
     color: #333;
@@ -3510,7 +3677,7 @@ h2.tribe-events-page-title, #tribe-geo-results h2.tribe-events-page-title {
     margin: 0 12px;
 }
 
-.tribe-events-calendar div[id*="tribe-events-daynum-"], 
+.tribe-events-calendar div[id*="tribe-events-daynum-"],
 .tribe-events-calendar div[id*="tribe-events-daynum-"] a {
     background: none;
     color: #333;
@@ -3522,7 +3689,7 @@ h2.tribe-events-page-title, #tribe-geo-results h2.tribe-events-page-title {
     background: #f7fafa;
 }
 
-.tribe-events-calendar td.tribe-events-present div[id*="tribe-events-daynum-"], 
+.tribe-events-calendar td.tribe-events-present div[id*="tribe-events-daynum-"],
 .tribe-events-calendar td.tribe-events-present div[id*="tribe-events-daynum-"] > a {
     background: none;
     color: #333;
@@ -3544,12 +3711,11 @@ h2.tribe-events-page-title, #tribe-geo-results h2.tribe-events-page-title {
     padding-bottom: 11px;
 }
 
-#tribe-events-header .tribe-events-sub-nav li {
-}
+#tribe-events-header .tribe-events-sub-nav li {}
 
-ul.tribe-events-sub-nav a, 
-.tribe-events-back a, 
-.tribe-events-list-widget .tribe-events-widget-link a, 
+ul.tribe-events-sub-nav a,
+.tribe-events-back a,
+.tribe-events-list-widget .tribe-events-widget-link a,
 .tribe-events-adv-list-widget .tribe-events-widget-link a {
     color: #01b6c7;
     font-size: 30px;
@@ -3558,9 +3724,9 @@ ul.tribe-events-sub-nav a,
     letter-spacing: -1px;
 }
 
-ul.tribe-events-sub-nav a:hover, 
-.tribe-events-back a:hover, 
-.tribe-events-list-widget .tribe-events-widget-link a:hover, 
+ul.tribe-events-sub-nav a:hover,
+.tribe-events-back a:hover,
+.tribe-events-list-widget .tribe-events-widget-link a:hover,
 .tribe-events-adv-list-widget .tribe-events-widget-link a:hover {
     color: #333;
 }
@@ -3638,7 +3804,7 @@ h1.gallery_title {
     padding-top: 9px;
 }
 
-.tribe-events-event-meta .tribe-events-meta-group, 
+.tribe-events-event-meta .tribe-events-meta-group,
 .tribe-events-event-meta .column {
     width: 27%;
     padding: 0;
@@ -3752,8 +3918,13 @@ h1.gallery_title {
     color: #333;
     font-weight: 300;
 }
+
+
 /* ======================================= Ends Events =================================== */
+
+
 /* ======================================= Author's Post =================================== */
+
 #post_author {
     overflow: hidden;
     margin: 25px 0 30px;
@@ -3802,8 +3973,13 @@ h1.gallery_title {
     border-radius: 94px;
     border: 6px solid #f5f7f7;
 }
+
+
 /* ======================================= Ends Author's Post =================================== */
+
+
 /* ======================================= Related Posts =================================== */
+
 #related_posts {
     background: #fff;
     padding: 20px 30px 10px;
@@ -3862,20 +4038,22 @@ h1.gallery_title {
     color: #999;
 }
 
+
 /* ======================================= Ends Related Posts =================================== */
+
 .sc_thumbs.thumb_wrap {
     overflow: hidden;
     margin: 0 -7px 0 -7px;
     padding: 19px 31px 0;
-	text-align: center;
+    text-align: center;
 }
 
 .sc_thumbs.thumb_wrap .thumb_item {
     width: 77px;
-	margin: 0 7px 0 7px;
-	text-align: center;
-	display: inline-block;
-	margin-bottom: 5px;
+    margin: 0 7px 0 7px;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 5px;
 }
 
 .sc_thumbs.thumb_wrap .thumb_item img {
@@ -3893,11 +4071,15 @@ h1.gallery_title {
     display: block;
     padding-top: 6px;
     line-height: 16px;
-	padding-bottom: 6px;
+    padding-bottom: 6px;
 }
+
+
 /* ======================================= Ends Post  =================================== */
 
+
 /* ======================================= Footer =================================== */
+
 #footer {
     padding: 27px 0;
     text-align: center;
@@ -3906,9 +4088,13 @@ h1.gallery_title {
     color: #aaa;
     background: #fff;
 }
+
+
 /* ======================================= Ends Footer =================================== */
 
+
 /* ======================================= Aside Block =================================== */
+
 .left #secondary {
     margin: 0 60px 0 0;
 }
@@ -3977,7 +4163,10 @@ h1.gallery_title {
 .widget_area aside.widget ul.no_bull li:after {
     display: none;
 }
+
+
 /* ======================================= Pages Navigation =================================== */
+
 .nav_pages,
 .page-links {
     padding: 60px 0;
@@ -4184,6 +4373,8 @@ h1.gallery_title {
     border-color: #01b6c7;
     background: #01b6c7;
 }
+
+
 /* ======================================= Ends Pages Navigation =================================== */
 
 .widget_contacts .contacts_address {
@@ -4207,7 +4398,9 @@ h1.gallery_title {
     display: none;
 }
 
+
 /* ======================================= Comments =================================== */
+
 .widget_recent_comments ul li {
     overflow: hidden;
     margin-bottom: 6px;
@@ -4258,7 +4451,9 @@ h1.gallery_title {
     color: #01b6c7;
 }
 
+
 /* ======================================= Popular =================================== */
+
 .widget #popular_tabs .tab_title {
     margin-bottom: 27px;
 }
@@ -4436,8 +4631,8 @@ h1.gallery_title {
     margin-left: 2%;
 }
 
-#commentform .comment-form-author input, 
-#commentform .comment-form-email  input,
+#commentform .comment-form-author input,
+#commentform .comment-form-email input,
 #commentform textarea {
     width: 100%;
     -moz-box-sizing: border-box;
@@ -4579,8 +4774,13 @@ h1.gallery_title {
 .cansel_reply {
     display: none;
 }
+
+
 /* ======================================= Ends Popular/Comments =================================== */
+
+
 /* ======================================= Tagcloud =================================== */
+
 .tagcloud {
     overflow: hidden;
 }
@@ -4607,8 +4807,13 @@ h1.gallery_title {
     border-color: #01b6c7;
     color: #fff;
 }
+
+
 /* ======================================= Ends Tagcloud =================================== */
+
+
 /* ======================================= Flickr =================================== */
+
 .flickr_images {
     overflow: hidden;
     padding-top: 6px;
@@ -4639,8 +4844,13 @@ h1.gallery_title {
     -moz-transform: scale(1.2);
     -ms-transform: scale(1.2);
 }
+
+
 /* ======================================= Ends Flickr =================================== */
+
+
 /* ======================================= Follow =================================== */
+
 .widget_follow .socail_links {
     padding-top: 5px;
     overflow: hidden;
@@ -4674,8 +4884,13 @@ h1.gallery_title {
 #secondary .widget_follow .socail_links li:after {
     display: none;
 }
+
+
 /* ======================================= Ends Follow =================================== */
+
+
 /* ======================================= Social =================================== */
+
 .social .soc_list {
     text-align: center;
     list-style: none;
@@ -4717,8 +4932,13 @@ h1.gallery_title {
     -o-transition: all ease .3s;
     transition: all ease .3s;
 }
+
+
 /* ======================================= Ends Social =================================== */
+
+
 /* ======================================= Team =================================== */
+
 .sc_team {
     overflow: hidden;
     margin: 0 -15px 71px;
@@ -4759,7 +4979,7 @@ h1.gallery_title {
     vertical-align: top;
 }
 
-.sc_team .sc_team_item .sc_team_item_avatar  img {
+.sc_team .sc_team_item .sc_team_item_avatar img {
     width: 720;
     height: 720;
 }
@@ -4864,8 +5084,13 @@ h1.gallery_title {
 .sc_team .sc_team_item .sc_team_item_social a:hover {
     color: #01b6c7;
 }
+
+
 /* ======================================= Ends Team =================================== */
+
+
 /* ======================================= Error Page =================================== */
+
 .text.nothing_found {
     text-align: center;
 }
@@ -4882,16 +5107,21 @@ h1.gallery_title {
     margin-top: 23px;
 }
 
-.error404  #footer {
+.error404 #footer {
     margin-top: 300px;
 }
 
-.error404  #primary {
+.error404 #primary {
     float: initial;
     margin: 0 auto;
 }
+
+
 /* ======================================= Ends Error Page =================================== */
+
+
 /* ======================================= Downloads =================================== */
+
 .latest_sermon {
     text-align: left;
     background: #f7f9f9;
@@ -4953,8 +5183,13 @@ article .sermon_downloads {
 .sermon_downloads li a:hover {
     color: #333;
 }
+
+
 /* ======================================= Ends Downloads =================================== */
+
+
 /* ======================================= Lines =================================== */
+
 .sc_line.sc_line_style_solid {
     margin-top: 17px;
     margin-bottom: 16px;
@@ -5004,8 +5239,13 @@ article .sermon_downloads {
     border-top-style: dotted;
     border-top-color: #d9ddde;
 }
+
+
 /* ======================================= Ends Lines =================================== */
+
+
 /* ======================================= Shortcodes =================================== */
+
 .sc_highlight {
     color: #fff;
     background-color: #01b6c7;
@@ -5066,7 +5306,9 @@ article .sermon_downloads {
     background: #01b6c7;
 }
 
-.video_frame_wrap img, .video_frame_wrap iframe, h2.video_title {
+.video_frame_wrap img,
+.video_frame_wrap iframe,
+h2.video_title {
     width: 360px;
 }
 
@@ -5094,8 +5336,13 @@ article .sermon_downloads {
     width: 660px;
     height: 354px;
 }
+
+
 /* ======================================= Ends Shortcodes =================================== */
+
+
 /* ======================================= Choose your style block =================================== */
+
 #opt_block {
     z-index: 19999;
     margin-right: -240px;
@@ -5110,30 +5357,9 @@ article .sermon_downloads {
     position: relative;
     background: #333;
     border-radius: 3px 0 0 3px;
-    -webkit-box-shadow: 2px 1px 0 1px #cfcfcf,
-				3px 2px 0 1px #cfcfcf, 
-				4px 3px 0 1px #cfcfcf,
-				5px 4px 0 1px #cfcfcf,
-				6px 5px 0 1px #cfcfcf,
-				7px 6px 0 1px #cfcfcf,
-				8px 7px 0 1px #cfcfcf,
-				9px 8px 0 1px #cfcfcf;
-    -moz-box-shadow: 2px 1px 0 1px #cfcfcf,
-				3px 2px 0 1px #cfcfcf, 
-				4px 3px 0 1px #cfcfcf,
-				5px 4px 0 1px #cfcfcf,
-				6px 5px 0 1px #cfcfcf,
-				7px 6px 0 1px #cfcfcf,
-				8px 7px 0 1px #cfcfcf,
-				9px 8px 0 1px #cfcfcf;
-    box-shadow: 2px 1px 0 1px #cfcfcf,
-				3px 2px 0 1px #cfcfcf, 
-				4px 3px 0 1px #cfcfcf,
-				5px 4px 0 1px #cfcfcf,
-				6px 5px 0 1px #cfcfcf,
-				7px 6px 0 1px #cfcfcf,
-				8px 7px 0 1px #cfcfcf,
-				9px 8px 0 1px #cfcfcf;
+    -webkit-box-shadow: 2px 1px 0 1px #cfcfcf, 3px 2px 0 1px #cfcfcf, 4px 3px 0 1px #cfcfcf, 5px 4px 0 1px #cfcfcf, 6px 5px 0 1px #cfcfcf, 7px 6px 0 1px #cfcfcf, 8px 7px 0 1px #cfcfcf, 9px 8px 0 1px #cfcfcf;
+    -moz-box-shadow: 2px 1px 0 1px #cfcfcf, 3px 2px 0 1px #cfcfcf, 4px 3px 0 1px #cfcfcf, 5px 4px 0 1px #cfcfcf, 6px 5px 0 1px #cfcfcf, 7px 6px 0 1px #cfcfcf, 8px 7px 0 1px #cfcfcf, 9px 8px 0 1px #cfcfcf;
+    box-shadow: 2px 1px 0 1px #cfcfcf, 3px 2px 0 1px #cfcfcf, 4px 3px 0 1px #cfcfcf, 5px 4px 0 1px #cfcfcf, 6px 5px 0 1px #cfcfcf, 7px 6px 0 1px #cfcfcf, 8px 7px 0 1px #cfcfcf, 9px 8px 0 1px #cfcfcf;
 }
 
 #opt_block .block_header h2 {
@@ -5160,30 +5386,9 @@ article .sermon_downloads {
     background: #e8e8e8;
     margin-left: 55px;
     border-radius: 0 0 0 2px;
-    -webkit-box-shadow: 2px 1px 0 1px #cfcfcf,
-				3px 2px 0 1px #cfcfcf, 
-				4px 3px 0 1px #cfcfcf,
-				5px 4px 0 1px #cfcfcf,
-				6px 5px 0 1px #cfcfcf,
-				7px 6px 0 1px #cfcfcf,
-				8px 7px 0 1px #cfcfcf,
-				9px 8px 0 1px #cfcfcf;
-    -moz-box-shadow: 2px 1px 0 1px #cfcfcf,
-				3px 2px 0 1px #cfcfcf, 
-				4px 3px 0 1px #cfcfcf,
-				5px 4px 0 1px #cfcfcf,
-				6px 5px 0 1px #cfcfcf,
-				7px 6px 0 1px #cfcfcf,
-				8px 7px 0 1px #cfcfcf,
-				9px 8px 0 1px #cfcfcf;
-    box-shadow: 2px 1px 0 1px #cfcfcf,
-				3px 2px 0 1px #cfcfcf, 
-				4px 3px 0 1px #cfcfcf,
-				5px 4px 0 1px #cfcfcf,
-				6px 5px 0 1px #cfcfcf,
-				7px 6px 0 1px #cfcfcf,
-				8px 7px 0 1px #cfcfcf,
-				9px 8px 0 1px #cfcfcf;
+    -webkit-box-shadow: 2px 1px 0 1px #cfcfcf, 3px 2px 0 1px #cfcfcf, 4px 3px 0 1px #cfcfcf, 5px 4px 0 1px #cfcfcf, 6px 5px 0 1px #cfcfcf, 7px 6px 0 1px #cfcfcf, 8px 7px 0 1px #cfcfcf, 9px 8px 0 1px #cfcfcf;
+    -moz-box-shadow: 2px 1px 0 1px #cfcfcf, 3px 2px 0 1px #cfcfcf, 4px 3px 0 1px #cfcfcf, 5px 4px 0 1px #cfcfcf, 6px 5px 0 1px #cfcfcf, 7px 6px 0 1px #cfcfcf, 8px 7px 0 1px #cfcfcf, 9px 8px 0 1px #cfcfcf;
+    box-shadow: 2px 1px 0 1px #cfcfcf, 3px 2px 0 1px #cfcfcf, 4px 3px 0 1px #cfcfcf, 5px 4px 0 1px #cfcfcf, 6px 5px 0 1px #cfcfcf, 7px 6px 0 1px #cfcfcf, 8px 7px 0 1px #cfcfcf, 9px 8px 0 1px #cfcfcf;
 }
 
 #opt_block .block_content .patterns_list {
@@ -5343,4 +5548,6 @@ article .sermon_downloads {
     background: #01b6c7;
     border-color: #01b6c7;
 }
+
+
 /* ======================================= Ends Choose your style block =================================== */

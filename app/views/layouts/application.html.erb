@@ -5,12 +5,114 @@
     <%= csrf_meta_tags %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+   <link href="../assets/style.css" media="all" rel="stylesheet" type="text/css">
+    <link href="../assets/prettyphoto/css/prettyPhoto.css" media="all" rel="stylesheet" type="text/css">
+    <link href="../assets/mediaplayer/mediaelementplayer.css" media="all" rel="stylesheet" type="text/css">
+    <link href="../assets/shortcodes.css" media="all" rel="stylesheet" type="text/css">
+    <link href="../assets/responsive.css" media="all" rel="stylesheet" type="text/css">
+    <link href="../assets/colorpicker/colorpicker.css" media="all" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro%3A300%2C400%2C600%2C700&amp;ver=3.8.3" media="all" rel="stylesheet" type="text/css">
     <link rel="icon" type="image/png" href="/Logo.png" sizes="96x96">
+    <link href="../assets/style_color.css" media="all" rel="stylesheet" type="text/css">
   </head>
 
   <body>
+  <div class="page">
+         <!-- Menu -->
+            <section class="section1">
+               <div class="container clearboth">
+                  <div id="sitename">
+                     <a href="#">
+                     <img src="../assets/Logo.png">
+                     </a>
+                  </div>
+                  <nav id="mainmenu_area">
+                     <ul id="mainmenu">
+                        <li>
+                          <%= link_to("Home", root_path ) %>
+                        </li>
+                        <li>
+                              <%= link_to("About", about_index_path ) %>
+                           </li>
+                           <li>
+                           <%= link_to("Book Exchange", books_path) %>
+                           </li>
+                            <li>
+                           <%= link_to("Contact Us", contact_index_path) %>
+                           </li>
+                          <!--  <li><a href="#">Blog</a> -->
+                           </li>
+                           <li>
+                           <%= link_to("Events",events_path) %>
+                           </li>
+                           <li>
+                           <a>Become a member</a>
+                            <ul>
+                              <li>
+                                <%= link_to("Sign In", new_user_session_path) %>
+                              </li>
+                               <li>
+                           <%= link_to("Sign Up", new_user_registration_path ) %>
+                           </li>
+                            </ul>
+                          </li>
+                        </li>
+                     </ul>
+                     <div class="mobile_menu">
+                        <a><span>Homepage 1</span></a>
+                        <ul>
+                        <li>
+                          <%= link_to("Home", root_path ) %>
+                        </li>
+                        <li>
+                              <%= link_to("About", about_index_path ) %>
+                           </li>
+                           <li>
+                           <%= link_to("Book Exchange", books_path ) %>
+                           </li>
+                           <li><a href="#">Gallery</a></li>
+                           <li><a href="#">Blog</a>
+                           </li>
+                           <li>
+                           <%= link_to("Events", events_path) %>
+                           </li>
+                           <li>
+                           <%= link_to("Contact Us", contact_index_path) %>
+                           </li>
+                        </li>
+                        </ul>
+                     </div>
+                  </nav>
+               </div>
+            </section>
+            <!-- Ends Menu -->
+  </div>
   <p class="notice"><%= notice %></p>
   <p class="alert"><%= alert %></p>
     <%= yield %>
   </body>
+
+  <script type="text/javascript" src="../assets/jquery-1.10.2.min.js"></script>
+      <script type="text/javascript" src="../assets/jquery-migrate.min.js"></script>
+      <script type="text/javascript" src="../assets/jquery.mobilemenu.min.js"></script>
+      <script type="text/javascript" src="../assets/colorpicker/colorpicker.js"></script>
+      <script type="text/javascript" src="../assets/jquery.parallax-1.1.3.js"></script>
+      <script type="text/javascript" src="../assets/SmoothScroll.js"></script>
+      <script type="text/javascript" src="../assets/jquery.mousewheel.min.js"></script>
+      <script type="text/javascript" src="../assets/jquery.mCustomScrollbar.min.js"></script>
+      <script type="text/javascript" src="../assets/jquery.tools.custom.js"></script>
+      <script type="text/javascript" src="../assets/jquery.cookie.js"></script>
+      <script type="text/javascript" src="../assets/superfish.js"></script>
+      <script type="text/javascript" src="../assets/skip-link-focus-fix.js"></script>
+      <script type="text/javascript" src="../assets/jquery.flexslider.min.js"></script>
+      <script type="text/javascript" src="../assets/prettyphoto/jquery.prettyPhoto.js"></script>
+      <script type="text/javascript" src="../assets/mediaplayer/mediaelement-and-player.min.js"></script>
+      <script type="text/javascript" src="../assets/jreject/jquery.reject.js"></script>
+      <script type="text/javascript" src="../assets/jquery.hoverdir.js"></script>
+      <script type="text/javascript" src="../assets/jquery.isotope.min.js"></script>
+      <script type="text/javascript" src="../assets/jquery.easing.js"></script>
+      <script type="text/javascript" src="../assets/_utils.js"></script>
+      <script type="text/javascript" src="../assets/_front.js"></script>
+      <script type="text/javascript" src="../assets/jquery.plugin.min.js"></script>
+      <script type="text/javascript" src="../assets/jquery.countdown.min.js"></script>
 </html>

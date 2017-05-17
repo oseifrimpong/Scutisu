@@ -18,48 +18,78 @@
          <!-- Header -->
          <header id="header">
             <!-- Menu -->
-            <section class="section1">
+             <section class="section1">
                <div class="container clearboth">
                   <div id="sitename">
-                     <a href="#" title="Family Church">
-                     <img alt="" src="../assets/Logo.png">
+                     <a href="#">
+                     <img alt=" SCUTISU" src="../assets/Logo.png">
                      </a>
                   </div>
                   <nav id="mainmenu_area">
                      <ul id="mainmenu">
-                        <li class="current-menu-item">
-                           <a href="#">Home</a>
+                        <li>
+                          <%= link_to("Home", root_path ) %>
                         </li>
                         <li>
-                              <a href="#">About Us</a>
+                              <%= link_to("About", about_index_path ) %>
                            </li>
-                           <li><a href="#">Book Exchange</a>
+                           <li>
+                           <%= link_to("Book Exchange", books_path) %>
                            </li>
-                           <li><a href="#">Gallery</a></li>
-                           <li><a href="#">Blog</a>
+                            <li>
+                           <%= link_to("Contact Us", contact_index_path) %>
                            </li>
-                           <li><a href="#">Events</a>
+                          <!--  <li><a href="#">Blog</a> -->
                            </li>
-                           <li><a href="#">Contact Us</a>
+                           <li>
+                           <%= link_to("Events",events_path) %>
+                           </li>
+                           <li>
+                           <a>Become a member</a>
+                            <ul>
+                              <li>
+                                <%= link_to("Sign In", new_user_session_path) %>
+                              </li>
+                               <li>
+                           <%= link_to("Sign Up", new_user_registration_path ) %>
+                           </li>
+                            </ul>
+                          </li>
                         </li>
                      </ul>
                      <div class="mobile_menu">
                         <a><span>Homepage 1</span></a>
                         <ul>
-                           <li>
-                              <a href="#">Home</a>
+                        <li>
+                          <%= link_to("Home", root_path ) %>
+                        </li>
+                        <li>
+                              <%= link_to("About", about_index_path ) %>
                            </li>
                            <li>
-                              <a href="#">About Us</a>
+                           <%= link_to("Book Exchange", books_path ) %>
                            </li>
-                           <li><a href="#">Book Exchange</a>
+                           <li>
+                           <%= link_to("Contact Us", contact_index_path) %>
                            </li>
-                           <li><a href="#">Blog</a>
+                           <!-- <li><a href="#">Gallery</a></li> -->
+                           <!-- <li><a href="#">Blog</a> -->
                            </li>
-                           <li><a href="#">Events</a>
+                           <li>
+                           <%= link_to("Events", events_path) %>
                            </li>
-                           <li><a href="#">Contact Us</a>
+                           <li>
+                           <a>Become a member</a>
+                            <ul>
+                              <li>
+                                <%= link_to("Sign In", new_user_session_path) %>
+                              </li>
+                               <li>
+                           <%= link_to("Sign Up", new_user_registration_path ) %>
                            </li>
+                            </ul>
+                          </li>
+                        </li>
                         </ul>
                      </div>
                   </nav>
@@ -119,9 +149,7 @@
             <!-- Ends Slider -->
          </header>
          <!-- Ends Header -->
-         </section>
-         <!-- Ends Content -->
-
+      
          <!-- Footer -->
          <footer id="footer">
             <div class="footer_copyright">
