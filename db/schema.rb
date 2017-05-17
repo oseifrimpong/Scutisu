@@ -15,47 +15,24 @@ ActiveRecord::Schema.define(version: 20170511061759) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "admins", force: :cascade do |t|
-    t.string   "email",                  default: "", null: false
-    t.string   "encrypted_password",     default: "", null: false
-    t.string   "reset_password_token"
-    t.datetime "reset_password_sent_at"
-    t.datetime "remember_created_at"
-    t.integer  "sign_in_count",          default: 0,  null: false
-    t.datetime "current_sign_in_at"
-    t.datetime "last_sign_in_at"
-    t.inet     "current_sign_in_ip"
-    t.inet     "last_sign_in_ip"
-    t.datetime "created_at",                          null: false
-    t.datetime "updated_at",                          null: false
-    t.index ["email"], name: "index_admins_on_email", unique: true, using: :btree
-    t.index ["reset_password_token"], name: "index_admins_on_reset_password_token", unique: true, using: :btree
-  end
-
   create_table "authors", force: :cascade do |t|
     t.string   "name"
     t.string   "bio"
     t.string   "email"
-    t.integer  "book_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["book_id"], name: "index_authors_on_book_id", using: :btree
   end
 
   create_table "book_requests", force: :cascade do |t|
     t.string   "studentID"
     t.string   "phone"
-    t.integer  "book_id"
-    t.integer  "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["book_id"], name: "index_book_requests_on_book_id", using: :btree
-    t.index ["user_id"], name: "index_book_requests_on_user_id", using: :btree
   end
 
   create_table "books", force: :cascade do |t|
+    t.integer  "author_id"
     t.string   "title"
-    t.string   "author"
     t.string   "description"
     t.string   "language"
     t.string   "year"
@@ -63,21 +40,7 @@ ActiveRecord::Schema.define(version: 20170511061759) do
     t.string   "subject"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
-  end
-
-  create_table "events", force: :cascade do |t|
-    t.string   "name"
-    t.string   "description"
-    t.datetime "event_date"
-    t.datetime "regis_deadline"
-    t.datetime "created_at",     null: false
-    t.datetime "updated_at",     null: false
-  end
-
-  create_table "participations", force: :cascade do |t|
-    t.string   "first_name"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.index ["author_id"], name: "index_books_on_author_id", using: :btree
   end
 
   create_table "users", force: :cascade do |t|
@@ -97,7 +60,4 @@ ActiveRecord::Schema.define(version: 20170511061759) do
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
   end
 
-  add_foreign_key "authors", "books"
-  add_foreign_key "book_requests", "books"
-  add_foreign_key "book_requests", "users"
 end

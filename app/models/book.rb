@@ -1,4 +1,4 @@
 class Book < ApplicationRecord
 	belongs_to :author
-	belongs_to :book_request
+	has_many :book_requests, through: :users
 end
