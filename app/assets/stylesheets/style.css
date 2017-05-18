@@ -752,7 +752,7 @@ nav #mainmenu li ul li ul {
     font-size: 80px;
     line-height: 80px;
     font-weight: 300;
-    color: #fff;
+    color: #01b6c7 !important;
     letter-spacing: -2px;
     float: left;
 }
@@ -773,7 +773,7 @@ nav #mainmenu li ul li ul {
 
 .section2 > .parallax {
     margin-top: 0;
-    padding-top: 33px;
+    //padding-top: 33px;
     padding-bottom: 38px;
 }
 

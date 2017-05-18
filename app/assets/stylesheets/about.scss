@@ -1,3 +1,18 @@
 // Place all the styles related to the about controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.about h1 {
+    color: #01b6c7 !important;
+}
+
+.row {
+   // border: solid black;
+    width: 100%;
+    height: auto;
+    text-align: justify;
+
+   .scut, .history{
+   		size: 1.2em !important;
+   }
+
+}
