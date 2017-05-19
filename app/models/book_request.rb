@@ -1,4 +1,4 @@
 class BookRequest < ApplicationRecord
-	has_many :users
-	has_many :books
+	belongs_to :users
+	belongs_to :book
 end

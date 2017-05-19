@@ -21,6 +21,10 @@ gem 'rails_admin_rollincode', '~> 1.0'
 gem 'devise'
 gem 'cancancan', '~> 1.10'
 gem 'pg'
+
+gem "paperclip", "~> 5.0.0"
+
+
 gem 'toastr_rails'
 gem 'autoprefixer-rails'
 
