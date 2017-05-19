@@ -10,37 +10,32 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170511061759) do
+ActiveRecord::Schema.define(version: 20170518142721) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "authors", force: :cascade do |t|
-    t.string   "name"
-    t.string   "bio"
-    t.string   "email"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
   create_table "book_requests", force: :cascade do |t|
     t.string   "studentID"
     t.string   "phone"
+    t.integer  "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
   create_table "books", force: :cascade do |t|
-    t.integer  "author_id"
     t.string   "title"
     t.string   "description"
     t.string   "language"
     t.string   "year"
     t.string   "course"
     t.string   "subject"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
-    t.index ["author_id"], name: "index_books_on_author_id", using: :btree
+    t.datetime "created_at",          null: false
+    t.datetime "updated_at",          null: false
+    t.string   "avatar_file_name"
+    t.string   "avatar_content_type"
+    t.integer  "avatar_file_size"
+    t.datetime "avatar_updated_at"
   end
 
   create_table "users", force: :cascade do |t|

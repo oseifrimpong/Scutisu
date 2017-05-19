@@ -19,6 +19,8 @@ gem 'rails_admin', '~> 1.1.1'
 gem 'rails_admin_rollincode', '~> 1.0'
 gem 'devise'
 gem 'pg'
+gem "paperclip", "~> 5.0.0"
+
 
 gem 'toastr_rails'
 group :development, :test do
