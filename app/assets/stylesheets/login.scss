@@ -1,0 +1,43 @@
+.login {
+    background-color: #01b6c7;
+    //background-color: rgba(255, 255, 255, .9);
+    color: rgba(0, 0, 0, .8);
+    text-align: center !important;
+    margin: 30px 0;
+    height: 420px;
+    .rem_me {
+        text-align: left !important;
+        width: 120px !important;
+        margin: 0 !important;
+    }
+    h2 {
+        font-weight: bolder;
+        font-size: 2.5em;
+        margin: 20px 0 40px 0;
+    }
+    .field > label {
+        text-align: left;
+        width: 100%;
+        margin-left: 70px;
+    }
+    input {
+        margin: 0 0 10px 0;
+        line-height: 2em;
+    }
+    input[type="submit"] {
+        margin: 0 !important;
+        width: 75%;
+        background-color: #8b2d1c !important;
+        &:hover {
+            background-color: #8b2d1c !important;
+            opacity: .9;
+            transition: all .3s ease-in;
+        }
+    }
+}
+
+a {
+    &:hover {
+        background-color: transparent !important;
+    }
+}
