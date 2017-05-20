@@ -9,7 +9,7 @@
           <div class="caption">
             <h3><%= book.title %></h3>
             <p class="card-text"><%= truncate(book.description, length: 20) %></p>
-            <%= link_to("View", class:'btn btn-primary') %>
+            <%= link_to("View", book, class:'btn btn-primary') %>
             <%= link_to("Request", class:'btn btn-default') %>
           </div>
           </div> 
