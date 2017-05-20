@@ -45,11 +45,9 @@ Rails.application.configure do
   # Suppress logger output for asset requests.
   config.assets.quiet = true
 
-<<<<<<< HEAD
 
-=======
   Paperclip.options[:command_path] = "/usr/local/bin/"
->>>>>>> book
+
   #for Devise
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 

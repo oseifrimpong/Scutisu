@@ -15,7 +15,6 @@ ActiveRecord::Schema.define(version: 20170518142721) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-
   create_table "admins", force: :cascade do |t|
     t.string   "email",                  default: "", null: false
     t.string   "encrypted_password",     default: "", null: false
@@ -33,33 +32,27 @@ ActiveRecord::Schema.define(version: 20170518142721) do
     t.index ["reset_password_token"], name: "index_admins_on_reset_password_token", unique: true, using: :btree
   end
 
-  create_table "authors", force: :cascade do |t|
-    t.string   "name"
-    t.string   "bio"
-    t.string   "email"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
   create_table "book_requests", force: :cascade do |t|
     t.string   "studentID"
     t.string   "phone"
+    t.integer  "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
   create_table "books", force: :cascade do |t|
-    t.integer  "author_id"
     t.string   "title"
     t.string   "description"
     t.string   "language"
     t.string   "year"
     t.string   "course"
     t.string   "subject"
-
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
-    t.index ["author_id"], name: "index_books_on_author_id", using: :btree
+    t.datetime "created_at",          null: false
+    t.datetime "updated_at",          null: false
+    t.string   "avatar_file_name"
+    t.string   "avatar_content_type"
+    t.integer  "avatar_file_size"
+    t.datetime "avatar_updated_at"
   end
 
   create_table "events", force: :cascade do |t|
@@ -75,14 +68,6 @@ ActiveRecord::Schema.define(version: 20170518142721) do
     t.string   "first_name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-
-    t.datetime "created_at",          null: false
-    t.datetime "updated_at",          null: false
-    t.string   "avatar_file_name"
-    t.string   "avatar_content_type"
-    t.integer  "avatar_file_size"
-    t.datetime "avatar_updated_at"
-
   end
 
   create_table "users", force: :cascade do |t|
