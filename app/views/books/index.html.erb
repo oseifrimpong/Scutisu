@@ -16,5 +16,12 @@
     </div>
       <% end %>
   </div>
+  <div class="pagination">
+  <div class="page_info">
+    <%= page_entries_info @books %>
+  </div>
+  <%= will_paginate @books, :container => false %>
+</div>
+
 
 

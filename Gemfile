@@ -21,6 +21,7 @@ gem 'rails_admin_rollincode', '~> 1.0'
 gem 'devise'
 gem 'cancancan', '~> 1.10'
 gem 'pg'
+gem 'will_paginate', '~> 3.1.0'
 
 gem "paperclip", "~> 5.0.0"
 
