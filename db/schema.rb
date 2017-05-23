@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170518142721) do
+ActiveRecord::Schema.define(version: 20170522060206) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -30,6 +30,16 @@ ActiveRecord::Schema.define(version: 20170518142721) do
     t.datetime "updated_at",                          null: false
     t.index ["email"], name: "index_admins_on_email", unique: true, using: :btree
     t.index ["reset_password_token"], name: "index_admins_on_reset_password_token", unique: true, using: :btree
+  end
+
+  create_table "authors", force: :cascade do |t|
+    t.string   "name"
+    t.string   "bio"
+    t.string   "email"
+    t.integer  "book_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["book_id"], name: "index_authors_on_book_id", using: :btree
   end
 
   create_table "book_requests", force: :cascade do |t|
@@ -60,8 +70,12 @@ ActiveRecord::Schema.define(version: 20170518142721) do
     t.string   "description"
     t.datetime "event_date"
     t.datetime "regis_deadline"
-    t.datetime "created_at",     null: false
-    t.datetime "updated_at",     null: false
+    t.datetime "created_at",          null: false
+    t.datetime "updated_at",          null: false
+    t.string   "avatar_file_name"
+    t.string   "avatar_content_type"
+    t.integer  "avatar_file_size"
+    t.datetime "avatar_updated_at"
   end
 
   create_table "participations", force: :cascade do |t|
@@ -87,4 +101,5 @@ ActiveRecord::Schema.define(version: 20170518142721) do
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
   end
 
+  add_foreign_key "authors", "books"
 end

@@ -3454,7 +3454,7 @@ h2.events_title {
 #tribe-events-content-wrapper .events_parallax {
     margin-bottom: 54px;
     padding: 27px 0 8px;
-    background: url(../images/parallax/home_prlx.jpg) 50% 0 fixed repeat;
+    background: url(../assets/event_header) 50% 0 fixed repeat;
     background-size: cover;
 }
 
