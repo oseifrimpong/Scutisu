@@ -3,7 +3,6 @@ class CreateParticipations < ActiveRecord::Migration[5.0]
     create_table :participations do |t|
       t.string :first_name
       
-      
       t.timestamps
     end
   end
